@@ -176,7 +176,7 @@ public class BasicArrowButton extends JButton implements SwingConstants
             paintTriangle(g, (w - size) / 2, (h - size) / 2,
                                 size, direction, isEnabled);
 
-            // Reset the Graphics back to it's original settings
+            // Reset the Graphics back to its original settings
             if (isPressed) {
                 g.translate(-1, -1);
             }

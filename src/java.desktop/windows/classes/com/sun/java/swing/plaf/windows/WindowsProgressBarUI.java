@@ -265,7 +265,7 @@ public class WindowsProgressBarUI extends BasicProgressBarUI
             currentFrame = currentFrame % framecount;
 
             // this code adjusts the chunk size to properly account for the
-            // size and gap specified in the XP style. It also does it's own
+            // size and gap specified in the XP style. It also does its own
             // box placement for the chunk animation. This is required because
             // the inherited algorithm from BasicProgressBarUI goes back and
             // forth whereas XP only goes in one direction. XP also has ghosted

@@ -43,7 +43,7 @@ import java.util.HashMap;
  * linux SunJCE).
  *
  * Lengths around 64k are chosen because 64k is the point where
- * com.sun.crypto.provider.GaloisCounterMode#doLastBlock() starts it's
+ * com.sun.crypto.provider.GaloisCounterMode#doLastBlock() starts its
  * intrinsic warmup
  *
  * Plaintext is all zeros.  Preset key and IV.

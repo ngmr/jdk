@@ -629,7 +629,7 @@ public class JSpinner extends JComponent implements Accessible
      * with <code>setEditor</code> or created by a <code>createEditor</code>
      * override, will not be replaced anyway.
      * <p>
-     * This class is the <code>LayoutManager</code> for it's single
+     * This class is the <code>LayoutManager</code> for its single
      * <code>JFormattedTextField</code> child.   By default the
      * child is just centered with the parents insets.
      * @since 1.4
@@ -639,10 +639,10 @@ public class JSpinner extends JComponent implements Accessible
     {
         /**
          * Constructs an editor component for the specified <code>JSpinner</code>.
-         * This <code>DefaultEditor</code> is it's own layout manager and
+         * This <code>DefaultEditor</code> is its own layout manager and
          * it is added to the spinner's <code>ChangeListener</code> list.
          * The constructor creates a single <code>JFormattedTextField</code> child,
-         * initializes it's value to be the spinner model's current value
+         * initializes its value to be the spinner model's current value
          * and adds it to <code>this</code> <code>DefaultEditor</code>.
          *
          * @param spinner the spinner whose model <code>this</code> editor will monitor
@@ -703,7 +703,7 @@ public class JSpinner extends JComponent implements Accessible
          * Typically the editor's parent is a <code>JSpinner</code> however
          * subclasses of <code>JSpinner</code> may override the
          * the <code>createEditor</code> method and insert one or more containers
-         * between the <code>JSpinner</code> and it's editor.
+         * between the <code>JSpinner</code> and its editor.
          *
          * @return <code>JSpinner</code> ancestor; <code>null</code>
          *         if none of the ancestors are a <code>JSpinner</code>

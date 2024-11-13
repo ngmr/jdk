@@ -32,7 +32,7 @@ import java.util.function.Supplier;
 
 /**
  * Contains services which desktop provides to the datatransfer system to enrich
- * it's functionality.
+ * its functionality.
  *
  * @author Petr Pchelko
  * @since 9

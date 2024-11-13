@@ -1540,7 +1540,7 @@ public class CachedRowSetImpl extends BaseRowSet implements RowSet, RowSetIntern
         // if at all, to their initial values.
         initProperties();
 
-        // clear the vector of it's present contents
+        // clear the vector of its present contents
         rvh.clear();
 
         // this will make it eligible for gc

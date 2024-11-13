@@ -408,7 +408,7 @@ public abstract class CommandLineOptionTest {
 
     /**
      * Prepares boolean command line flag with name {@code name} according
-     * to it's {@code value}.
+     * to its {@code value}.
      *
      * @param name the name of option to be prepared
      * @param value the value of option
@@ -420,7 +420,7 @@ public abstract class CommandLineOptionTest {
 
     /**
      * Prepares numeric command line flag with name {@code name} by setting
-     * it's value to {@code value}.
+     * its value to {@code value}.
      *
      * @param name the name of option to be prepared
      * @param value the value of option
@@ -432,7 +432,7 @@ public abstract class CommandLineOptionTest {
 
     /**
      * Prepares generic command line flag with name {@code name} by setting
-     * it's value to {@code value}.
+     * its value to {@code value}.
      *
      * @param name the name of option to be prepared
      * @param value the value of option ("+" or "-" can be used instead of "true" or "false")

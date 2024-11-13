@@ -2514,7 +2514,7 @@ public class Container extends Component {
             }
         } else {
             // This is a native container, so it needs to host
-            // one of it's children.  If this function is called before
+            // one of its children.  If this function is called before
             // a peer has been created we don't yet have a dispatcher
             // because it has not yet been determined if this instance
             // is lightweight.

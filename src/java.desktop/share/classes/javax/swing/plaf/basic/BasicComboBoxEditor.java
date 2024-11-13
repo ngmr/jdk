@@ -98,7 +98,7 @@ public class BasicComboBoxEditor implements ComboBoxEditor,FocusListener {
         Object newValue = editor.getText();
 
         if (oldValue != null && !(oldValue instanceof String))  {
-            // The original value is not a string. Should return the value in it's
+            // The original value is not a string. Should return the value in its
             // original type.
             if (newValue.equals(oldValue.toString()))  {
                 return oldValue;

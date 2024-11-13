@@ -860,7 +860,7 @@ public class BasicScrollBarUI
         int itrackH = incrButtonY - incrGap - itrackY;
         trackRect.setBounds(itemX, itrackY, itemW, itrackH);
 
-        /* If the thumb isn't going to fit, zero it's bounds.  Otherwise
+        /* If the thumb isn't going to fit, zero its bounds.  Otherwise
          * make sure it fits between the buttons.  Note that setting the
          * thumbs bounds will cause a repaint.
          */

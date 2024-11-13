@@ -32,7 +32,7 @@
  * Test checks that for slected heap-filter all expected objects will be reached
  * and reported by appropriate callback.
  * Test consist of two mostly idential classes.
- * Agent tags instance and class of first one of them as well as it's non-primitive fields.
+ * Agent tags instance and class of first one of them as well as its non-primitive fields.
  * Depending on heap-filter selected by agent's 'filter' option for each field in instances
  * of those two classes flag that indicates whether or not field should be reported by
  * any callback is calculated.

@@ -519,7 +519,7 @@ public class JMenu extends JMenuItem implements Accessible,MenuElement
     /**
      * Sets the suggested delay before the menu's <code>PopupMenu</code>
      * is popped up or down.  Each look and feel (L&amp;F) may determine
-     * it's own policy for observing the delay property.  In most cases,
+     * its own policy for observing the delay property.  In most cases,
      * the delay is not observed for top level menus or while dragging.
      * This method is a property of the look and feel code and is used
      * to manage the idiosyncrasies of the various UI implementations.

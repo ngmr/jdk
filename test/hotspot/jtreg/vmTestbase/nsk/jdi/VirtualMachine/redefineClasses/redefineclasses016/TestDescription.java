@@ -58,7 +58,7 @@
  *  The test checks two different cases for suspended debugee and not
  *  suspended one.
  *  When canRedefineClasses() is false, the test is considered as passed and
- *  completes it's execution.
+ *  completes its execution.
  * COMMENTS:
  *
  * @library /vmTestbase

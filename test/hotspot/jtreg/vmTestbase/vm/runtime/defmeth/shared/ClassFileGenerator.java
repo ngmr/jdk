@@ -59,7 +59,7 @@ public class ClassFileGenerator implements Visitor {
     private final int defaultMajorVer;
 
     /** Default access flags for generated class files
-     * Used when a class doesn't specify it's own access flags. */
+     * Used when a class doesn't specify its own access flags. */
     private final int defaultClassAccFlags;
 
     /** Represent current state of class file traversal.

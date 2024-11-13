@@ -230,7 +230,7 @@ public class StepPattern extends NodeTest implements SubContextList, ExpressionO
   Expression[] m_predicates;
 
   /**
-   * Tell if this expression or it's subexpressions can traverse outside
+   * Tell if this expression or its subexpressions can traverse outside
    * the current subtree.
    *
    * NOTE: Ancestors tests with predicates are problematic, and will require

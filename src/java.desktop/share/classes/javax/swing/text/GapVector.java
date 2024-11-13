@@ -161,7 +161,7 @@ abstract class GapVector implements Serializable {
     /**
      * Delete nItems at position.  Squeezes any marks
      * within the deleted area to position.  This moves
-     * the gap to the best place by minimizing it's
+     * the gap to the best place by minimizing its
      * overall movement.  The gap must intersect the
      * target block.
      */

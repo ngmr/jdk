@@ -79,7 +79,7 @@ public class Algorithms {
          * where exception is thrown, but points at start of the method.
          *
          * This method uses nsk.share.test.Stresser class to control
-         * it's execution. Consumed number of iterations depends on
+         * its execution. Consumed number of iterations depends on
          * available memory.
          *
          * @throws <tt>nsk.share.Failure</tt> if any unexpected exception is

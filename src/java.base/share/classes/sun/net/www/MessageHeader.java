@@ -451,7 +451,7 @@ public final class MessageHeader {
     }
 
     /** Sets the value of a key.  If the key already
-        exists in the header, it's value will be
+        exists in the header, its value will be
         changed.  Otherwise a new key/value pair will
         be added to the end of the header. */
     public synchronized void set(String k, String v) {

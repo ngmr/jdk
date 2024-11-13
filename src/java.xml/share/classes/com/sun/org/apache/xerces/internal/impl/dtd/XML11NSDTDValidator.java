@@ -112,7 +112,7 @@ public class XML11NSDTDValidator extends XML11DTDValidator {
                         XMLErrorReporter.SEVERITY_FATAL_ERROR);
                 }
 
-                // 3. "xml" can't be bound to any other namespace than it's own
+                // 3. "xml" can't be bound to any other namespace than its own
                 if (localpart == XMLSymbols.PREFIX_XML) {
                     if (uri != NamespaceContext.XML_URI) {
                         fErrorReporter.reportError(

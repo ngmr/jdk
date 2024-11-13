@@ -3046,7 +3046,7 @@ public class XMLEntityManager implements XMLComponent, XMLEntityResolver {
     * This class allows rewinding an inputStream by allowing a mark
     * to be set, and the stream reset to that position.  <strong>The
     * class assumes that it needs to read one character per
-    * invocation when it's read() method is inovked, but uses the
+    * invocation when its read() method is inovked, but uses the
     * underlying InputStream's read(char[], offset length) method--it
     * won't buffer data read this way!</strong>
     *

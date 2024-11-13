@@ -46,7 +46,7 @@ import vm.runtime.defmeth.shared.data.method.body.CallMethod.Invoke;
  * Builder for data.Tester instances.
  *
  * Simplifies single test construction during test case preparation.
- * Test scenario is the following: call some method and check it's result.
+ * Test scenario is the following: call some method and check its result.
  */
 public class TesterBuilder implements Builder<Tester> {
     // Test number

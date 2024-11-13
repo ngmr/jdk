@@ -117,10 +117,10 @@ public class CellRendererPane extends Container implements Accessible
 
     /**
      * Paint a cell renderer component c on graphics object g.  Before the component
-     * is drawn it's reparented to this (if that's necessary), it's bounds
+     * is drawn it's reparented to this (if that's necessary), its bounds
      * are set to w,h and the graphics object is (effectively) translated to x,y.
      * If it's a JComponent, double buffering is temporarily turned off. After
-     * the component is painted it's bounds are reset to -w, -h, 0, 0 so that, if
+     * the component is painted its bounds are reset to -w, -h, 0, 0 so that, if
      * it's the last renderer component painted, it will not start consuming input.
      * The Container p is the component we're actually drawing on, typically it's
      * equal to this.getParent(). If shouldValidate is true the component c will be

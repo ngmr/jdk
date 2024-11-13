@@ -29,7 +29,7 @@
  * VM Testbase readme:
  * This test exercises JVMTI function IterateThroughHeap().
  * Test checks that for all test objects appropriate callback will be invoked with
- * correct arguments regardless to reachability of an object, it's visability
+ * correct arguments regardless to reachability of an object, its visability
  * and regardless to whether or not field is static.
  * During this test no particular klass- or heap-filter passed into IterateThroughHeap.
  * Test itertaes over instances of four classes which differs only by visibility of
@@ -44,7 +44,7 @@
  * Test asserts that each of four available callbacks will be invoked appropriate number
  * of times and value passed to callback is correct.
  * Tags with format described above are used to distinguise between different
- * fields and to be able to compare it's value with appropriate expected value.
+ * fields and to be able to compare its value with appropriate expected value.
  * All errors associated with incorrect values passed into callback are reported
  * immediatly.
  * After each IterateThroughHeap call test verifies information collected during

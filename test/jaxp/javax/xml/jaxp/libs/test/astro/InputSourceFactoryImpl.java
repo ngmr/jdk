@@ -28,7 +28,7 @@ import org.xml.sax.InputSource;
 
 /*
  * Default implementation of a input source factory. This is the most
- * straight forward way to create a sax input source and set it's
+ * straight forward way to create a sax input source and set its
  * system id.
  *
  */

@@ -781,7 +781,7 @@ final class Dasher implements StartFlagPathConsumer2D, MarlinConst {
 
         // caches the coefficients of the current leaf in its flattened
         // form (see inside next() for what that means). The cache is
-        // invalid when it's third element is negative, since in any
+        // invalid when its third element is negative, since in any
         // valid flattened curve, this would be >= 0.
         private final double[] flatLeafCoefCache = new double[]{0.0d, 0.0d, -1.0d, 0.0d};
 

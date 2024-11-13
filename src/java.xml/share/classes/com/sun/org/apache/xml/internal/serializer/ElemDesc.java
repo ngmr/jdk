@@ -147,7 +147,7 @@ public final class ElemDesc
     }
 
     /**
-     * Set an attribute name and it's bit properties.
+     * Set an attribute name and its bit properties.
      *
      *
      * @param name non-null name of attribute, in upper case.

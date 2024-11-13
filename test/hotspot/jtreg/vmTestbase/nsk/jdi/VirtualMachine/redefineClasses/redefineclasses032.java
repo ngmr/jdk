@@ -39,7 +39,7 @@ import java.io.*;
  * The test stops in <code>justMethod</code>, does a redefineClasses which deletes
  * a line in that method and then tries to get <code>StackFrame.thisObject()</code>.
  * When <code>canRedefineClasses()</code> is <code>false</code>, the test is
- * considered as passed and completes it's execution.
+ * considered as passed and completes its execution.
  */
 
 public class redefineclasses032 {

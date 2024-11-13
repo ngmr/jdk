@@ -124,9 +124,9 @@ public class AquaPopupMenuUI extends BasicPopupMenuUI {
             return;
         }
 
-        // popup is neither "far right" or "far left" of it's invoker
+        // popup is neither "far right" or "far left" of its invoker
         if (invokerBounds.y + invokerBounds.height < popupBounds.y + OVERLAP_SLACK) {
-            // popup is "middle" below it's invoker,
+            // popup is "middle" below its invoker,
             // this is probably the "connected" case where both upper corners should touch
             g2d.fillRect(-2, -2, popupBounds.width + 4, 8);
             return;

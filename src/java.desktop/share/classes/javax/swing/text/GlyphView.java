@@ -736,7 +736,7 @@ public class GlyphView extends View implements TabableView, Cloneable {
      *
      * @param axis may be either View.X_AXIS or View.Y_AXIS
      * @param p0 the location in the model where the
-     *  fragment should start it's representation &gt;= 0.
+     *  fragment should start its representation &gt;= 0.
      * @param pos the position along the axis that the
      *  broken view would occupy &gt;= 0.  This may be useful for
      *  things like tab calculations.
@@ -1243,7 +1243,7 @@ public class GlyphView extends View implements TabableView, Cloneable {
          *
          * @param v the view to find the model location to break at.
          * @param p0 the location in the model where the
-         *  fragment should start it's representation &gt;= 0.
+         *  fragment should start its representation &gt;= 0.
          * @param x  the graphic location along the axis that the
          *  broken view would occupy &gt;= 0.  This may be useful for
          *  things like tab calculations.

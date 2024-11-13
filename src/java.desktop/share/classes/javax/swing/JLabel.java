@@ -810,7 +810,7 @@ public class JLabel extends JComponent implements SwingConstants, Accessible
             "SwingConstants.TOP",
             "SwingConstants.CENTER",
             "SwingConstants.BOTTOM"},
-            description = "The vertical position of the text relative to it's image.")
+            description = "The vertical position of the text relative to its image.")
     public void setVerticalTextPosition(int textPosition) {
         if (textPosition == verticalTextPosition) return;
         int old = verticalTextPosition;

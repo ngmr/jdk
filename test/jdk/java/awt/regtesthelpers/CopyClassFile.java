@@ -33,7 +33,7 @@ import java.nio.file.StandardCopyOption;
 import java.util.Arrays;
 
 /**
- * A utility to copy the class and all it's inner classes to the specified directory.
+ * A utility to copy the class and all its inner classes to the specified directory.
  * <p>
  * Usage in jtreg:
  *

@@ -78,7 +78,7 @@ public class TestResourceElement extends JavacTestingAbstractProcessor implement
        }
        @Override
        public Void visitVariable(VariableTree node, CompilationUnitTree cu) {
-           // if this is "trv", get it's element.
+           // if this is "trv", get its element.
            if (node.getName().contentEquals("trv")) {
                trvElement = trees.getElement(trees.getPath(cu, node));
            }

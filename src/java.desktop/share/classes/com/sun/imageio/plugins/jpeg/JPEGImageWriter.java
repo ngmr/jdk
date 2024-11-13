@@ -1280,7 +1280,7 @@ public class JPEGImageWriter extends ImageWriter {
     }
 
     /**
-     * The library has it's own error facility that emits warning messages.
+     * The library has its own error facility that emits warning messages.
      * This routine is called by the native code when it has already
      * formatted a string for output.
      * XXX  For truly complete localization of all warning messages,

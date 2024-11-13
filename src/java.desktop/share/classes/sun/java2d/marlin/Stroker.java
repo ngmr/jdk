@@ -77,7 +77,7 @@ final class Stroker implements StartFlagPathConsumer2D, MarlinConst {
     private double cx0, cy0, cdx, cdy; // c stands for current
     // vectors that when added to (sx0,sy0) and (cx0,cy0) respectively yield the
     // first and last points on the left parallel path. Since this path is
-    // parallel, it's slope at any point is parallel to the slope of the
+    // parallel, its slope at any point is parallel to the slope of the
     // original path (thought they may have different directions), so these
     // could be computed from sdx,sdy and cdx,cdy (and vice versa), but that
     // would be error prone and hard to read, so we keep these anyway.

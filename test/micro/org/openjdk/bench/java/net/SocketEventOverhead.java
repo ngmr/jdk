@@ -117,7 +117,7 @@ public class SocketEventOverhead {
      * Fixture with fake read/write operations that have only the JFR event
      * boilerplate code for managing jfr events.  No actual transfer is done
      * to eliminate the I/O portion and measure the overhead of JFR event
-     * handling in it's various states.
+     * handling in its various states.
      */
     @State(Scope.Thread)
     public static class SkeletonFixture {

@@ -8840,7 +8840,7 @@ public abstract class Component implements ImageObserver, MenuContainer,
         @SuppressWarnings("deprecation")
         Package swingPackage = Package.getPackage("javax.swing");
         // For Swing serialization to correctly work Swing needs to
-        // be notified before Component does it's serialization.  This
+        // be notified before Component does its serialization.  This
         // hack accommodates this.
         //
         // Swing classes MUST be loaded by the bootstrap class loader,
@@ -9167,7 +9167,7 @@ public abstract class Component implements ImageObserver, MenuContainer,
     /**
      * Checks that this component meets the prerequisites to be focus owner:
      * - it is enabled, visible, focusable
-     * - it's parents are all enabled and showing
+     * - its parents are all enabled and showing
      * - top-level window is focusable
      * - if focus cycle root has DefaultFocusTraversalPolicy then it also checks that this policy accepts
      * this component as focus owner
@@ -9179,7 +9179,7 @@ public abstract class Component implements ImageObserver, MenuContainer,
             return false;
         }
 
-        // - it's parents are all enabled and showing
+        // - its parents are all enabled and showing
         synchronized(getTreeLock()) {
             if (parent != null) {
                 return parent.canContainFocusOwner(this);

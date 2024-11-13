@@ -205,7 +205,7 @@ public class ClhsdbFindPC {
             runTest(withCore, cmds, expStrMap);
 
             // Run findpc on a JavaThread*. We can find one in the jstack output.
-            // The tid for a thread is it's JavaThread*. For example:
+            // The tid for a thread is its JavaThread*. For example:
             //  "main" #1 prio=5 tid=0x00000080263398f0 nid=0x277e0 ...
             // This is testing the PointerFinder support for all C++ types other than MetaData types.
             parts = jStackOutput.split("tid=");

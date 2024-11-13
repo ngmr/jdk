@@ -175,7 +175,7 @@ public class Application {
 
     /**
      * Installs the handler which is notified when the application is asked to open a list of files.
-     * The {@link OpenFilesHandler#openFiles(OpenFilesEvent)} notifications are only sent if the Java app is a bundled application, with a {@code CFBundleDocumentTypes} array present in it's Info.plist.
+     * The {@link OpenFilesHandler#openFiles(OpenFilesEvent)} notifications are only sent if the Java app is a bundled application, with a {@code CFBundleDocumentTypes} array present in its Info.plist.
      * See the <a href="http://developer.apple.com/mac/library/documentation/General/Reference/InfoPlistKeyReference">Info.plist Key Reference</a> for more information about adding a {@code CFBundleDocumentTypes} key to your app's Info.plist.
      *
      * @param openFileHandler
@@ -188,7 +188,7 @@ public class Application {
 
     /**
      * Installs the handler which is notified when the application is asked to print a list of files.
-     * The {@link PrintFilesHandler#printFiles(PrintFilesEvent)} notifications are only sent if the Java app is a bundled application, with a {@code CFBundleDocumentTypes} array present in it's Info.plist.
+     * The {@link PrintFilesHandler#printFiles(PrintFilesEvent)} notifications are only sent if the Java app is a bundled application, with a {@code CFBundleDocumentTypes} array present in its Info.plist.
      * See the <a href="http://developer.apple.com/mac/library/documentation/General/Reference/InfoPlistKeyReference">Info.plist Key Reference</a> for more information about adding a {@code CFBundleDocumentTypes} key to your app's Info.plist.
      *
      * @param printFileHandler
@@ -201,7 +201,7 @@ public class Application {
 
     /**
      * Installs the handler which is notified when the application is asked to open a URL.
-     * The {@link OpenURIHandler#openURI(OpenURIEvent)} notifications are only sent if the Java app is a bundled application, with a {@code CFBundleURLTypes} array present in it's Info.plist.
+     * The {@link OpenURIHandler#openURI(OpenURIEvent)} notifications are only sent if the Java app is a bundled application, with a {@code CFBundleURLTypes} array present in its Info.plist.
      * See the <a href="http://developer.apple.com/mac/library/documentation/General/Reference/InfoPlistKeyReference">Info.plist Key Reference</a> for more information about adding a {@code CFBundleURLTypes} key to your app's Info.plist.
      *
      * Setting the handler to {@code null} causes all {@link OpenURIHandler#openURI(OpenURIEvent)} requests to be enqueued until another handler is set.

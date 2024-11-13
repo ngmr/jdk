@@ -23,7 +23,7 @@ package com.sun.org.apache.xpath.internal;
 
 /**
  * A class that implements this interface will call a XPathVisitor
- * for itself and members within it's heararchy.  If the XPathVisitor's
+ * for itself and members within its heararchy.  If the XPathVisitor's
  * method returns false, the sub-member heararchy will not be
  * traversed.
  */

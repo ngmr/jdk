@@ -2053,7 +2053,7 @@ implements DTM, org.xml.sax.ContentHandler, org.xml.sax.ext.LexicalHandler
          * @param newChild Must be a valid new node handle.
          * @param clone true if the child should be cloned into the document.
          * @param cloneDepth if the clone argument is true, specifies that the
-         *                   clone should include all it's children.
+         *                   clone should include all its children.
          */
         public void appendChild(int newChild, boolean clone, boolean cloneDepth) {
                 boolean sameDoc = ((newChild & DOCHANDLE_MASK) == m_docHandle);

@@ -318,7 +318,7 @@ public class Arguments {
                                                + e.getMessage());
         }
 
-        // verify that the special option is valid and get it's formatter
+        // verify that the special option is valid and get its formatter
         if (specialOption != null) {
             OptionFinder finder = new OptionFinder(optionsSources());
             optionFormat = finder.getOptionFormat(specialOption, timestamp);

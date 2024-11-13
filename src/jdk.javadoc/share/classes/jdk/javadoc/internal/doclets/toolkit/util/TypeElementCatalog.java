@@ -106,7 +106,7 @@ public class TypeElementCatalog {
 
         PackageElement pkg = utils.containingPackage(typeElement);
         if (utils.isSpecified(pkg) || configuration.getOptions().noDeprecated() && utils.isDeprecated(pkg)) {
-            // No need to catalog this class if it's package is
+            // No need to catalog this class if its package is
             // specified on the command line or if -nodeprecated option is set
             return;
         }

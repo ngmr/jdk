@@ -191,7 +191,7 @@ public class ContextEnumerator implements NamingEnumeration<Binding> {
 
             if(debug) {System.out.println("getNextDescendant: expanded case");}
 
-            // if the current child is expanded, use it's enumerator
+            // if the current child is expanded, use its enumerator
             return currentChildEnum.next();
 
         } else {

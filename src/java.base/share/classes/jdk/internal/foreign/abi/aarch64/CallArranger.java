@@ -239,7 +239,7 @@ public abstract class CallArranger {
         In the simplest case structs are copied in chunks. i.e. the fields don't matter, just the size.
         The struct is split into 8-byte chunks, and those chunks are either passed in registers and/or on the stack.
 
-        Homogeneous float aggregates (HFAs) can be copied in a field-wise manner, i.e. the struct is split into it's
+        Homogeneous float aggregates (HFAs) can be copied in a field-wise manner, i.e. the struct is split into its
         fields and those fields are the chunks which are passed. For HFAs the rules are more complicated and ABI based:
 
                         | enough registers | some registers, but not enough  | no registers

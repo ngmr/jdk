@@ -302,7 +302,7 @@ public class BasicComboPopup extends JPopupMenu implements ComboPopup {
 
     /**
      * Called when the UI is uninstalling.  Since this popup isn't in the component
-     * tree, it won't get it's uninstallUI() called.  It removes the listeners that
+     * tree, it won't get its uninstallUI() called.  It removes the listeners that
      * were added in addComboBoxListeners().
      */
     public void uninstallingUI() {

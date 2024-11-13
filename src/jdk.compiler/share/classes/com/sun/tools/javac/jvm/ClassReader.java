@@ -1359,7 +1359,7 @@ public class ClassReader {
 
     protected void readEnclosingMethodAttr(Symbol sym) {
         // sym is a nested class with an "Enclosing Method" attribute
-        // remove sym from it's current owners scope and place it in
+        // remove sym from its current owners scope and place it in
         // the scope specified by the attribute
         sym.owner.members().remove(sym);
         ClassSymbol self = (ClassSymbol)sym;

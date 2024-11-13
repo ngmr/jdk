@@ -53,7 +53,7 @@ public class PrefixResolverDefault implements PrefixResolver
 
   /**
    * Given a namespace, get the corrisponding prefix.  This assumes that
-   * the PrevixResolver hold's it's own namespace context, or is a namespace
+   * the PrevixResolver hold's its own namespace context, or is a namespace
    * context itself.
    * @param prefix Prefix to resolve.
    * @return Namespace that prefix resolves to, or null if prefix

@@ -200,7 +200,7 @@ class myHttpServer implements Runnable, Cloneable {
     /** Satisfy one get request.  It is invoked with the clientInput and
         clientOutput streams initialized.  This method handles one client
         connection. When it is done, it can simply exit. The default
-        server just echoes it's input. */
+        server just echoes its input. */
     protected void getRequest(URL u, String param) {
         try {
             if (u.getFile().equals("/echo.html")) {

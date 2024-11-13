@@ -481,7 +481,7 @@ public class JTable extends JComponent implements TableModelListener, Scrollable
     private transient SortManager sortManager;
 
     /**
-     * If true, when sorterChanged is invoked it's value is ignored.
+     * If true, when sorterChanged is invoked its value is ignored.
      */
     private boolean ignoreSortChange;
 
@@ -1780,7 +1780,7 @@ public class JTable extends JComponent implements TableModelListener, Scrollable
 
     /**
      * Called to set or clear the drop location during a DnD operation.
-     * In some cases, the component may need to use it's internal selection
+     * In some cases, the component may need to use its internal selection
      * temporarily to indicate the drop location. To help facilitate this,
      * this method returns and accepts as a parameter a state object.
      * This state object can be used to store, and later restore, the selection

@@ -436,7 +436,7 @@ public class BasicScrollPaneUI
         if (columnHeader != null && columnHeader.isVisible()) {
             Component header = columnHeader.getView();
             if (header != null && header.isVisible()) {
-                // Header is always given it's preferred size.
+                // Header is always given its preferred size.
                 Dimension headerPref = header.getPreferredSize();
                 int baseline = header.getBaseline(headerPref.width,
                                                   headerPref.height);
@@ -488,7 +488,7 @@ public class BasicScrollPaneUI
         // Baseline is either from the header, in which case it's always
         // the same size and therefore can be created as CONSTANT_ASCENT.
         // If the header doesn't have a baseline than the baseline will only
-        // be valid if it's BaselineResizeBehavior is
+        // be valid if its BaselineResizeBehavior is
         // CONSTANT_ASCENT, so, return CONSTANT_ASCENT.
         return Component.BaselineResizeBehavior.CONSTANT_ASCENT;
     }

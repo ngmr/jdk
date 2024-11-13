@@ -87,7 +87,7 @@ public interface DesktopManager
 
     /**
      * Generally, remove any iconic representation that is present and restore the
-     * frame to it's original size and location.
+     * frame to its original size and location.
      *
      * @param f  the {@code JInternalFrame} to be de-iconified
      */

@@ -36,7 +36,7 @@ import javax.sound.sampled.SourceDataLine;
 
 /**
  * {@code AudioSynthesizer} is a {@code Synthesizer}
- * which renders it's output audio into {@code SourceDataLine}
+ * which renders its output audio into {@code SourceDataLine}
  * or {@code AudioInputStream}.
  *
  * @see MidiSystem#getSynthesizer

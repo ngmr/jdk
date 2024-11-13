@@ -149,7 +149,7 @@ public class ProgressBarDemo extends JPanel {
     private static JButton createButton(Action a) {
         JButton b = new JButton();
         // setting the following client property informs the button to show
-        // the action text as it's name. The default is to not show the
+        // the action text as its name. The default is to not show the
         // action text.
         b.putClientProperty("displayActionText", Boolean.TRUE);
         b.setAction(a);

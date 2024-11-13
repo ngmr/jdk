@@ -165,7 +165,7 @@ public class TestBuilder {
     }
 
     /**
-     * Find previously constructed class by it's name.
+     * Find previously constructed class by its name.
      *
      * The method is considered safe: if it fails to find a class, it throws
      * IllegalArgumentException.

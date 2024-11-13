@@ -26,7 +26,7 @@ package org.netbeans.jemmy;
  *
  * A test scenario. This interface provides a mechanism for putting something
  * into execution. The execution is conditioned in a very general way by passing
- * a {@code java.lang.Object} to it's {@code runIt} method.
+ * a {@code java.lang.Object} to its {@code runIt} method.
  *
  * @see Test
  *

@@ -38,7 +38,7 @@ import com.sun.jndi.toolkit.dir.HierMemDirCtx;
  * It subclasses HierMemDirContext for most of the functionality. It
  * overrides functions that cause the schema definitions to change.
  * In such a case, it write the schema to the LdapServer and (assuming
- * there are no errors), calls it's superclass's equivalent function.
+ * there are no errors), calls its superclass's equivalent function.
  * Thus, the schema tree and the LDAP server's schema attributes are
  * always in sync.
  */

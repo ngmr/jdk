@@ -251,7 +251,7 @@ public abstract class DocumentBuilder {
      * Specify the {@link EntityResolver} to be used to resolve
      * entities present in the XML document to be parsed. Setting
      * this to <code>null</code> will result in the underlying
-     * implementation using it's own default implementation and
+     * implementation using its own default implementation and
      * behavior.
      *
      * @param er The <code>EntityResolver</code> to be used to resolve entities
@@ -263,7 +263,7 @@ public abstract class DocumentBuilder {
     /**
      * Specify the {@link ErrorHandler} to be used by the parser.
      * Setting this to <code>null</code> will result in the underlying
-     * implementation using it's own default implementation and
+     * implementation using its own default implementation and
      * behavior.
      *
      * @param eh The <code>ErrorHandler</code> to be used by the parser.

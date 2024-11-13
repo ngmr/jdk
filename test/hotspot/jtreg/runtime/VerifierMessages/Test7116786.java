@@ -381,7 +381,7 @@ class VerifyErrorCases {
                  "Bad access to protected data in getfield"),
 
         new Case("case66", "verifier.cpp", true, "verify_invoke_init",
-                 "Uninit_this is not of the current type or it's supertype",
+                 "Uninit_this is not of the current type or its supertype",
                  "Bad <init> method call"),
 
         /* Unreachable:  Stack map parsing ensures valid type and new

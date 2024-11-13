@@ -49,7 +49,7 @@ public interface SerializerTrace {
   public static final int EVENTTYPE_STARTELEMENT = 3;
 
   /**
-   * Event type generated when an element ends, after it's children have been added.
+   * Event type generated when an element ends, after its children have been added.
    */
   public static final int EVENTTYPE_ENDELEMENT = 4;
 

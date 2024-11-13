@@ -105,7 +105,7 @@ public class HeapGXLWriter extends AbstractHeapGraphWriter {
         isArray = oop.isArray();
 
         // generate an edge for instanceof relation
-        // between object node and it's class node.
+        // between object node and its class node.
         writeEdge(oop, oop.getKlass().getJavaMirror(), "instanceof");
 
         out.print("<node id='");

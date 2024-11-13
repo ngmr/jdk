@@ -102,7 +102,7 @@ public class OOMEInReferenceHandler {
                  return;
              }
              System.gc();
-             Thread.sleep(500L); // wait a little to allow GC to do it's work before allocating objects
+             Thread.sleep(500L); // wait a little to allow GC to do its work before allocating objects
              if (!referenceHandlerThread.isAlive()) {
                  // Reference Handler thread died -> failure
                  throw new Exception("Reference Handler thread died.");

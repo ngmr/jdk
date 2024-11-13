@@ -2623,7 +2623,7 @@ class SynthPainterImpl extends SynthPainter {
 
     /**
      * Paints the border of the window containing the tool bar when it
-     * has been detached from it's primary frame.
+     * has been detached from its primary frame.
      *
      * @param context SynthContext identifying the <code>JComponent</code> and
      *        <code>Region</code> to paint to
@@ -2641,7 +2641,7 @@ class SynthPainterImpl extends SynthPainter {
 
     /**
      * Paints the border of the window containing the tool bar when it
-     * has been detached from it's primary frame. This implementation invokes the
+     * has been detached from its primary frame. This implementation invokes the
      * method of the same name without the orientation.
      *
      * @param context SynthContext identifying the <code>JComponent</code> and

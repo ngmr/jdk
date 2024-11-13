@@ -40,7 +40,7 @@ import java.io.*;
  * method by changing value of debugee's field. After resuming debugee,
  * the test checks if a tested field contains correct value.
  * When <code>canRedefineClasses()</code> is <code>false</code>, the test is
- * considered as passed and completes it's execution.
+ * considered as passed and completes its execution.
  */
 
 public class redefineclasses031 {

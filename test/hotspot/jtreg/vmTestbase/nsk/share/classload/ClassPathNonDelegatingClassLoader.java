@@ -29,7 +29,7 @@ import java.util.*;
 import nsk.share.FileUtils;
 
 /**
- * Custom classloader that does not delegate to it's parent.
+ * Custom classloader that does not delegate to its parent.
  *
  * It can load classes from classpath that have name containing
  * "Class" (any package).

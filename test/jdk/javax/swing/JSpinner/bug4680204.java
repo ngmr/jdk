@@ -34,7 +34,7 @@ import java.awt.Robot;
 /*
  * @test
  * @bug 4680204
- * @summary JSpinner shows ToolTipText only on it's border
+ * @summary JSpinner shows ToolTipText only on its border
  * @key headful
  * @run main bug4680204
  */

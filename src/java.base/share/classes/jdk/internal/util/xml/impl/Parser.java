@@ -1332,7 +1332,7 @@ public abstract class Parser {
      * This recursive method is responsible for prefix addition
      * (
      * <code>mPref</code>) on the way down. The element's start tag end triggers
-     * the return process. The method then on it's way back resolves prefixes
+     * the return process. The method then on its way back resolves prefixes
      * and accumulates attributes.
      *
      * <p><code>att.num</code> carries attribute flags where: 0x1 - attribute is

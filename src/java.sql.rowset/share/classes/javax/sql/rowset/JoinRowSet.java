@@ -393,10 +393,10 @@ public interface JoinRowSet extends WebRowSet {
      * <P>
      * If any updates or modifications have been applied to the JoinRowSet
      * the CachedRowSet returned by the method will not be able to persist
-     * it's changes back to the originating rows and tables in the
+     * its changes back to the originating rows and tables in the
      * in the datasource. The CachedRowSet instance returned should not
      * contain modification data and it should clear all properties of
-     * it's originating SQL statement. An application should reset the
+     * its originating SQL statement. An application should reset the
      * SQL statement using the <code>RowSet.setCommand</code> method.
      * <p>
      * In order to allow changes to be persisted back to the datasource

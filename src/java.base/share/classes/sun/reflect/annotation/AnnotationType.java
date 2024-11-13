@@ -84,7 +84,7 @@ public class AnnotationType {
             result = new AnnotationType(annotationClass);
             // try to CAS the AnnotationType: null -> result
             if (!jla.casAnnotationType(annotationClass, null, result)) {
-                // somebody was quicker -> read it's result
+                // somebody was quicker -> read its result
                 result = jla.getAnnotationType(annotationClass);
                 assert result != null;
             }

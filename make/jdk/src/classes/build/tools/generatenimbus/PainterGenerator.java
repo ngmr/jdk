@@ -516,7 +516,7 @@ public class PainterGenerator {
         // number of fractions and colors.
         float[] fractions = new float[stops.size() + stops.size() - 1];
         String[] colors = new String[fractions.length];
-        //for each stop, create the stop and it's associated fraction
+        //for each stop, create the stop and its associated fraction
         int index = 0; // the index into fractions and colors
         for (int i = 0; i < stops.size(); i++) {
             GradientStop s = stops.get(i);

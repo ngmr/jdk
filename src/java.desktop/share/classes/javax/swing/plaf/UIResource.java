@@ -32,7 +32,7 @@ package javax.swing.plaf;
  * <code>ComponentUI.uninstallUI()</code> methods can use this interface
  * to decide if a properties value has been overridden.  For example, the
  * JList cellRenderer property is initialized by BasicListUI.installUI(),
- * only if it's initial value is null:
+ * only if its initial value is null:
  * <pre>
  * if (list.getCellRenderer() == null) {
  *     list.setCellRenderer((ListCellRenderer)(UIManager.get("List.cellRenderer")));

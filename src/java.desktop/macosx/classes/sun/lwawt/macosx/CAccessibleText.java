@@ -236,7 +236,7 @@ class CAccessibleText {
     // cmcnote: this method does not currently work for JLabels. JLabels, for some reason unbeknownst to me, do not
     // return a value from getAccessibleText. According to the javadocs, AccessibleJLabels implement AccessibleText,
     // so this doesn't really make sense. Perhaps a sun bug? Investigate. We currently get the text value out of labels
-    // via "getAccessibleName". This just returns a String - so we don't know it's position, etc, as we do for
+    // via "getAccessibleName". This just returns a String - so we don't know its position, etc, as we do for
     // AccessibleText.
     static double[] getBoundsForRange(final Accessible a, final Component c, final int location, final int length) {
         final double[] ret = new double[4];

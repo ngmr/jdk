@@ -4112,7 +4112,7 @@ public class JdbcRowSetImpl extends BaseRowSet implements JdbcRowSet, Joinable {
     /**
      * Rollbacks all the updates in the {@code JdbcRowSet} back to the
      * last {@code Savepoint} transaction marker. Wraps the internal
-     * {@code Connection} object and call it's rollback method
+     * {@code Connection} object and call its rollback method
      *
      * @param s the {@code Savepoint} transaction marker to roll the
      *        transaction to.

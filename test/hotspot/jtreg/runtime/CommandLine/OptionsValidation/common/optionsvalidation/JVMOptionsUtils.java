@@ -169,7 +169,7 @@ public class JVMOptionsUtils {
     }
 
     /**
-     * Add dependency for option depending on it's name. E.g. enable G1 GC for
+     * Add dependency for option depending on its name. E.g. enable G1 GC for
      * G1 options or add prepend options to not hit constraints.
      *
      * @param option option

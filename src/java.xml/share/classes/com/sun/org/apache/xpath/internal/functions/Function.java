@@ -34,7 +34,7 @@ import com.sun.org.apache.xpath.internal.objects.XObject;
  * ways for the class to be called. One method is that the
  * super class processes the arguments and hands the results to
  * the derived class, the other method is that the derived
- * class may process it's own arguments, which is faster since
+ * class may process its own arguments, which is faster since
  * the arguments don't have to be added to an array, but causes
  * a larger code footprint.
  * @xsl.usage advanced

@@ -290,7 +290,7 @@ public class GapContent extends GapVector implements AbstractDocument.Content, S
          * Fetch the location in the contiguous sequence
          * being modeled.  The index in the gap array
          * is held by the mark, so it is adjusted according
-         * to it's relationship to the gap.
+         * to its relationship to the gap.
          */
         public int getOffset() {
             int g0 = getGapStart();

@@ -120,7 +120,7 @@ class GlyphPainter2 extends GlyphView.GlyphPainter {
             float x = (float) alloc.getX();
             if( p0 > v.getStartOffset() || p1 < v.getEndOffset() ) {
                 try {
-                    //TextLayout can't render only part of it's range, so if a
+                    //TextLayout can't render only part of its range, so if a
                     //partial range is required, add a clip region.
                     Shape s = v.modelToView(p0, Position.Bias.Forward,
                                             p1, Position.Bias.Backward, a);
@@ -192,7 +192,7 @@ class GlyphPainter2 extends GlyphView.GlyphPainter {
      *
      * @param v the view to find the model location to break at.
      * @param p0 the location in the model where the
-     *  fragment should start it's representation >= 0.
+     *  fragment should start its representation >= 0.
      * @param x the graphic location along the axis that the
      *  broken view would occupy >= 0.  This may be useful for
      *  things like tab calculations.

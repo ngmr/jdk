@@ -114,7 +114,7 @@ public class XObject extends Expression implements Serializable, Cloneable
   public void detach(){}
 
   /**
-   * Forces the object to release it's resources.  This is more harsh than
+   * Forces the object to release its resources.  This is more harsh than
    * detach().
    */
   public void destruct()

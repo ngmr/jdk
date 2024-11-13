@@ -60,7 +60,7 @@ public interface XPointerPart {
 
     /**
      * Evaluates an XML resource with respect to an XPointer expressions
-     * by checking if it's element and attributes parameters match the
+     * by checking if its element and attributes parameters match the
      * criteria specified in the xpointer expression.
      *
      * @param element - The name of the element.

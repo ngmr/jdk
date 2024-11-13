@@ -88,7 +88,7 @@ public class RestrictNamedGroup extends SSLSocketTemplate {
      * Run the test case.
      */
     public static void main(String[] args) throws Exception {
-        // Named group is set as per run argument with no change in it's alphabet
+        // Named group is set as per run argument with no change in its alphabet
         Security.setProperty("jdk.tls.disabledAlgorithms", args[0]);
         System.setProperty("jdk.tls.namedGroups", args[0]);
 

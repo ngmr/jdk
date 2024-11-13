@@ -90,7 +90,7 @@ public class Arg
   }
 
   /**
-   * Have the object release it's resources.
+   * Have the object release its resources.
    * Call only when the variable or argument is going out of scope.
    */
   public void detach()

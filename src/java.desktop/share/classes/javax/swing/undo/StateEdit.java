@@ -33,9 +33,9 @@ import java.util.Hashtable;
  * <P>StateEdit is a general edit for objects that change state.
  * Objects being edited must conform to the StateEditable interface.</P>
  *
- * <P>This edit class works by asking an object to store it's state in
+ * <P>This edit class works by asking an object to store its state in
  * Hashtables before and after editing occurs.  Upon undo or redo the
- * object is told to restore it's state from these Hashtables.</P>
+ * object is told to restore its state from these Hashtables.</P>
  *
  * A state edit is used as follows:
  * <PRE>

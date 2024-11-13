@@ -1385,7 +1385,7 @@ throws SQLException;
      * JDBC connection is accessible to the administrator thread.
      * The {@code setNetworkTimeout} method will cover cases where
      * there is no administrator thread, or it has no access to the
-     * connection. This method is severe in it's effects, and should be
+     * connection. This method is severe in its effects, and should be
      * given a high enough value so it is never triggered before any more
      * normal timeouts, such as transaction timeouts.
      * <p>

@@ -50,7 +50,7 @@ import sun.net.util.IPAddressUtil;
  *
  * Since it would use a delegate to access
  * sun.net.www.protocol.http.HttpURLConnection functionalities, it
- * needs to implement all public methods in it's super class and all
+ * needs to implement all public methods in its super class and all
  * the way to Object.
  *
  */

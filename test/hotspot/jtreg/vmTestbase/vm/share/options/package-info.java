@@ -169,7 +169,7 @@ public class Test {
    </ul>
 </p>
 <p> All non-static fields (including private and protected) of class and
-    it's superclasses are scanned for annotations.
+    its superclasses are scanned for annotations.
 </p>
 <p>
  (Possibly) Same annotations for setter methods ? (NOT IMPLEMENTED)

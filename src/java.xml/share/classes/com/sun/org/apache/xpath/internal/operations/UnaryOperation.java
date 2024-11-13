@@ -57,7 +57,7 @@ public abstract class UnaryOperation extends Expression implements ExpressionOwn
   }
 
   /**
-   * Tell if this expression or it's subexpressions can traverse outside
+   * Tell if this expression or its subexpressions can traverse outside
    * the current subtree.
    *
    * @return true if traversal outside the context node's subtree can occur.

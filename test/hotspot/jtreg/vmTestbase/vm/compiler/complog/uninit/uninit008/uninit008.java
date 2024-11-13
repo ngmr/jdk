@@ -44,7 +44,7 @@ package vm.compiler.complog.uninit.uninit008;
 import vm.compiler.complog.share.Constants;
 
 /**
- * Provoke OSR in initializer of sub class with it's super class method call.
+ * Provoke OSR in initializer of sub class with its super class method call.
  * Super class's method doesn't contain any calls of sub class's methods.
  */
 

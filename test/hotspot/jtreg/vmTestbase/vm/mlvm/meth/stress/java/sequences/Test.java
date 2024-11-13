@@ -39,7 +39,7 @@
  *     - Reordering arguments
  *     - Array scattering and gathering
  *     - A MH that calls pair of methods ("guardWithTest")
- *     - The test calculates the "correct result" of calling the sequence of method handles by using it's own logic and compares it with the result of calling MHs.
+ *     - The test calculates the "correct result" of calling the sequence of method handles by using its own logic and compares it with the result of calling MHs.
  *
  * @library /vmTestbase
  *          /test/lib

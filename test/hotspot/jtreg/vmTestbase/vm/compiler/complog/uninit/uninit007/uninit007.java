@@ -44,8 +44,8 @@ package vm.compiler.complog.uninit.uninit007;
 import vm.compiler.complog.share.Constants;
 
 /**
- * Provoke OSR in initializer of sub class with it's super class method call.
- * Super class's method contains 'new' call of it's sub class.
+ * Provoke OSR in initializer of sub class with its super class method call.
+ * Super class's method contains 'new' call of its sub class.
  */
 
 public class uninit007 extends uninit007s {

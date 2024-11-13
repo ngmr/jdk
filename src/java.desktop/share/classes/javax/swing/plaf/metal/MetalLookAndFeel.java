@@ -81,7 +81,7 @@ import static javax.swing.UIDefaults.LazyValue;
  * {@code installUI} is invoked, and follow the recommendations
  * outlined in {@code LookAndFeel} for installing defaults.
  * <p>
- * {@code MetalLookAndFeel} derives it's color palette and fonts from
+ * {@code MetalLookAndFeel} derives its color palette and fonts from
  * {@code MetalTheme}. The default theme is {@code OceanTheme}. The theme
  * can be changed using the {@code setCurrentTheme} method, refer to it
  * for details on changing the theme. Prior to 1.5 the default

@@ -313,7 +313,7 @@ public abstract class AuthenticationInfo extends AuthCacheValue implements Clone
     }
 
     /**
-     * Return the AuthenticationInfo object from the cache if it's path is
+     * Return the AuthenticationInfo object from the cache if its path is
      * a substring of the supplied URLs path.
      */
     static AuthenticationInfo getAuth(String key, URL url, AuthCacheImpl acache) {

@@ -45,7 +45,7 @@ public class ClassWriter implements /* imports */ ClassConstants
     // Map between class name to index of type CONSTANT_Class
     protected Map<String, Short> classToIndex = new HashMap<String, Short>();
 
-    // Map between any modified UTF-8 and it's constant pool index.
+    // Map between any modified UTF-8 and its constant pool index.
     protected Map<String, Short> utf8ToIndex = new HashMap<String, Short>();
 
     // constant pool index for attribute names.

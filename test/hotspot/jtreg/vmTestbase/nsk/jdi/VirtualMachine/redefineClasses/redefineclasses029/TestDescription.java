@@ -39,7 +39,7 @@
  *     This test creates byte code, that has zero-length, and tries it
  *     to redefine the debugee. The test expects ClassFormatError exception.
  *     When canRedefineClasses() is false, the test is considered as passed
- *     and completes it's execution.
+ *     and completes its execution.
  * COMMENTS:
  *
  * @library /vmTestbase

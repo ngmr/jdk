@@ -549,7 +549,7 @@ public final class TestLoaderHandler extends RMIClassLoaderSpi {
 
             if (entry == null || (loader = entry.get()) == null) {
                 /*
-                 * If entry was in table but it's weak reference was cleared,
+                 * If entry was in table but its weak reference was cleared,
                  * remove it from the table and mark it as explicitly cleared,
                  * so that new matching entry that we put in the table will
                  * not be erroneously removed when this entry is processed

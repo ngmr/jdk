@@ -30,7 +30,7 @@ import javax.swing.event.*;
 import javax.swing.SizeRequirements;
 
 /**
- * A View that tries to flow it's children into some
+ * A View that tries to flow its children into some
  * partially constrained space.  This can be used to
  * build things like paragraphs, pages, etc.  The
  * flow is made up of the following pieces of functionality.
@@ -630,7 +630,7 @@ public abstract class FlowView extends BoxView {
             }
             if (bestIndex < 0) {
                 // there is nothing that can be broken, leave
-                // it in it's current state.
+                // it in its current state.
                 return;
             }
 

@@ -242,7 +242,7 @@ public class XSDHandler {
     final static int NOTATION_TYPE           = 6;
     final static int TYPEDECL_TYPE           = 7;
 
-    // this string gets appended to redefined names; it's purpose is to be
+    // this string gets appended to redefined names; its purpose is to be
     // as unlikely as possible to cause collisions.
     public final static String REDEF_IDENTIFIER = "_fn3dktizrknc9pi";
 
@@ -888,7 +888,7 @@ public class XSDHandler {
         // the other cases (callerTNS == currSchemaInfo.fTargetNamespce == null)
         // are valid
 
-        // a schema document can always access it's own target namespace
+        // a schema document can always access its own target namespace
         currSchemaInfo.addAllowedNS(currSchemaInfo.fTargetNamespace);
 
         SchemaGrammar sg = null;

@@ -96,7 +96,7 @@ import java.util.TreeMap;
  * and which apply to all synth Regions.</p>
  *
  * <p>Sometimes, however, you need to have a custom state. For example, you
- * want JButton to render differently if it's parent is a JToolbar. In Nimbus,
+ * want JButton to render differently if its parent is a JToolbar. In Nimbus,
  * you specify these custom states by including a special key in UIDefaults.
  * The following UIDefaults entries define three states for this button:</p>
  *

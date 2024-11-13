@@ -1654,7 +1654,7 @@ public class DecimalFormat extends NumberFormat {
         // Exact integral part of d.
         int integralPartAsInt = (int) d;
 
-        // Exact fractional part of d (since we subtract it's integral part).
+        // Exact fractional part of d (since we subtract its integral part).
         double exactFractionalPart = d - (double) integralPartAsInt;
 
         // Approximated scaled fractional part of d (due to multiplication).

@@ -61,7 +61,7 @@ import java.io.*;
  * suspended one.
  *
  * When <code>canRedefineClasses()</code> is <code>false</code>, the test is
- * considered as passed and completes it's execution.
+ * considered as passed and completes its execution.
  */
 
 public class redefineclasses004 {

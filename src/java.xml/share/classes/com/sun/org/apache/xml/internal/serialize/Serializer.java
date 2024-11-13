@@ -42,7 +42,7 @@ import org.xml.sax.DocumentHandler;
  * {@link org.xml.sax.ext.LexicalHandler}.
  * <p>
  * To serialize a DOM document or DOM element, create a compatible
- * serializer and call it's {@link
+ * serializer and call its {@link
  * DOMSerializer#serialize(Document)} or {@link DOMSerializer#serialize(Element)} methods.
  * Both methods would produce a full XML document, to serizlie only
  * the portion of the document use {@link OutputFormat#setOmitXMLDeclaration}

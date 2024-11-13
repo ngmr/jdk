@@ -27,7 +27,7 @@ import vm.runtime.defmeth.shared.builder.TestBuilder;
 
 /**
  * Wrapper around some ConcreteClass instance. It delegates all calls to
- * underlying instance. Lazy resolution of a target instance by it's name
+ * underlying instance. Lazy resolution of a target instance by its name
  * allows to delay resolution till runtime and "tie-the-knot" in recursive
  * hierarchies.
  */

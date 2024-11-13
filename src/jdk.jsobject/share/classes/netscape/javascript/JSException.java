@@ -37,7 +37,7 @@ public class JSException extends RuntimeException {
     private static final long serialVersionUID = 2778103758223661489L;
 
     /**
-     * Constructs a new JavaScript exception with null as it's detail message.
+     * Constructs a new JavaScript exception with null as its detail message.
      */
     public JSException() {
         super();

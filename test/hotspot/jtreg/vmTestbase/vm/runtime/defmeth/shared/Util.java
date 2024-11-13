@@ -183,7 +183,7 @@ public class Util {
     }
 
     /**
-     * Check whether a type isn't Void by it's name.
+     * Check whether a type isn't Void by its name.
      *
      * @param type return type name
      * @return

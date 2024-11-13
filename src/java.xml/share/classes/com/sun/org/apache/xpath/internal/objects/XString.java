@@ -1015,7 +1015,7 @@ public class XString extends XObject implements XMLString
    * replaced by a single space character (#x20), except spaces after punctuation which
    * receive double spaces if doublePunctuationSpaces is true.
    * This function may be useful to a formatter, but to get first class
-   * results, the formatter should probably do it's own white space handling
+   * results, the formatter should probably do its own white space handling
    * based on the semantics of the formatting object.
    *
    * @param   trimHead    Trim leading whitespace?

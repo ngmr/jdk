@@ -198,7 +198,7 @@ statusLabel.setHorizontalAlignment(STATUS_LABEL_HOR_ALIGNMENT);
 frame.add(statusLabel, BorderLayout.SOUTH);
 //</snip>
 
-//<snip>Initialize frame's size to fit it's content
+//<snip>Initialize frame's size to fit its content
 frame.pack();
 //</snip>
 

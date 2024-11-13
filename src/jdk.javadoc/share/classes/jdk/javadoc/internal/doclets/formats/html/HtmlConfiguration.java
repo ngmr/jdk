@@ -82,7 +82,7 @@ import jdk.javadoc.internal.doclets.toolkit.util.SimpleDocletException;
  * Also determine the length of the command-line option. For example,
  * for a option "-header" there will be a string argument associated, then the
  * the length of option "-header" is two. But for option "-nohelp" no argument
- * is needed so it's length is 1.
+ * is needed so its length is 1.
  * </p>
  * <p>
  * Also do the error checking on the options used. For example it is illegal to

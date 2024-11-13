@@ -274,7 +274,7 @@ public class SessionTimeOutTests {
             }
 
             /*
-             * A session not invalidated even after it's timeout?
+             * A session not invalidated even after its timeout?
              */
             if ((timeout != 0) && (lifetime > timeout) &&
                         (isTimedout.equals("NO"))) {

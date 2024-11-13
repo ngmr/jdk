@@ -24,7 +24,7 @@
 /*
  * @test
  *
- * @summary Test verifies set/get TLS data and verifies it's consistency.
+ * @summary Test verifies set/get TLS data and verifies its consistency.
  * Test set TLS with thread name which it belongs to and verify this information when getting test.
  *  -- cbThreadStart
  *  -- by AgentThread

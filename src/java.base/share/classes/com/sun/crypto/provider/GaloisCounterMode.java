@@ -1011,7 +1011,7 @@ abstract class GaloisCounterMode extends CipherSpi {
         }
 
         /**
-         * If originalDst is not null, 'dst' is an internal buffer and it's
+         * If originalDst is not null, 'dst' is an internal buffer and its
          * data will be copied to the original dst buffer
          */
         void restoreDst(ByteBuffer dst) {
@@ -1025,7 +1025,7 @@ abstract class GaloisCounterMode extends CipherSpi {
         }
 
         /**
-         * If originalOut is not null, the 'out' is an internal buffer and it's
+         * If originalOut is not null, the 'out' is an internal buffer and its
          * data will be copied into original out byte[];
          */
         void restoreOut(byte[] out, int len) {

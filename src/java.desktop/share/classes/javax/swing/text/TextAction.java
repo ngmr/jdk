@@ -36,7 +36,7 @@ import javax.swing.KeyStroke;
 /**
  * An Action implementation useful for key bindings that are
  * shared across a number of different text components.  Because
- * the action is shared, it must have a way of getting it's
+ * the action is shared, it must have a way of getting its
  * target to act upon.  This class provides support to try and
  * find a text component to operate on.  The preferred way of
  * getting the component to act upon is through the ActionEvent

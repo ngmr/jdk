@@ -92,7 +92,7 @@ import sun.swing.SwingAccessor;
  * The UI will install a default caret unless a customized caret
  * has been set. <br>
  * By default the caret tracks all the document changes
- * performed on the Event Dispatching Thread and updates it's position
+ * performed on the Event Dispatching Thread and updates its position
  * accordingly if an insertion occurs before or at the caret position
  * or a removal occurs before the caret position. <code>DefaultCaret</code>
  * tries to make itself visible which may lead to scrolling
@@ -804,7 +804,7 @@ public abstract class JTextComponent extends JComponent implements Scrollable, A
 
     /**
      * Called to set or clear the drop location during a DnD operation.
-     * In some cases, the component may need to use it's internal selection
+     * In some cases, the component may need to use its internal selection
      * temporarily to indicate the drop location. To help facilitate this,
      * this method returns and accepts as a parameter a state object.
      * This state object can be used to store, and later restore, the selection

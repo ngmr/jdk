@@ -53,7 +53,7 @@ public class HideDialogTest {
                 4. Now, click on the "dismiss" button. The Dialog should go away.
                 5. Repeat from (2) 10-20 times.
                 6. When the dialog goes away check that the frame window does not briefly
-                   get obscured by another app or repaint it's entire area. There should be
+                   get obscured by another app or repaint its entire area. There should be
                    no flicker at all in areas obscured by the dialog. (4065506 4122094)
                    If there is the test fails.
                 7. If the Dialog is successfully hidden each time, the test passed.  If the

@@ -273,7 +273,7 @@ public class HTMLSerializer
                 _printer.printText( rawName );
             _printer.indent();
 
-            // For each attribute serialize it's name and value as one part,
+            // For each attribute serialize its name and value as one part,
             // separated with a space so the element can be broken on
             // multiple lines.
             if ( attrs != null ) {
@@ -522,7 +522,7 @@ public class HTMLSerializer
                 _printer.printText( tagName );
             _printer.indent();
 
-            // For each attribute serialize it's name and value as one part,
+            // For each attribute serialize its name and value as one part,
             // separated with a space so the element can be broken on
             // multiple lines.
             if ( attrs != null ) {
@@ -744,7 +744,7 @@ public class HTMLSerializer
 
         // Lookup the element's attribute, but only print specified
         // attributes. (Unspecified attributes are derived from the DTD.
-        // For each attribute print it's name and value as one part,
+        // For each attribute print its name and value as one part,
         // separated with a space so the element can be broken on
         // multiple lines.
         attrMap = elem.getAttributes();

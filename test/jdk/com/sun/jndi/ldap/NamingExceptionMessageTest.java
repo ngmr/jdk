@@ -25,7 +25,7 @@
  * @test
  * @bug 8062947 8273402
  * @summary Test that CommunicationException is thrown when connection is timed out or closed/cancelled,
- *  and it's text matches the failure reason.
+ *  and its text matches the failure reason.
  * @library /test/lib lib
  * @run testng NamingExceptionMessageTest
  */

@@ -1473,7 +1473,7 @@ public interface CachedRowSet extends RowSet, Joinable {
     /**
      * Each <code>CachedRowSet</code> object's <code>SyncProvider</code> contains
      * a <code>Connection</code> object from the <code>ResultSet</code> or JDBC
-     * properties passed to it's constructors. This method wraps the
+     * properties passed to its constructors. This method wraps the
      * <code>Connection</code> commit method to allow flexible
      * auto commit or non auto commit transactional control support.
      * <p>

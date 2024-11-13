@@ -93,7 +93,7 @@ final class CfgFile {
 
         content.add(Map.entry("[JavaOptions]", SECTION_TAG));
 
-        // always let app know it's version
+        // always let app know its version
         content.add(Map.entry(
                 "java-options", "-Djpackage.app-version=" + version));
 

@@ -64,7 +64,7 @@ public class GeneratedTest implements TestExecutor {
     }
 
     /**
-     * Run individual assertion for the test by it's name.
+     * Run individual assertion for the test by its name.
      *
      * @param test
      * @throws Throwable

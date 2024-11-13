@@ -72,7 +72,7 @@ public class EnoughSeedTest {
 
     /**
      * Generates fixed number of seed bytes through a SecureRandom instance
-     * to verify it's seed generation status.
+     * to verify its seed generation status.
      * @param sr SecureRandom instance
      * @return The test success indicator
      */

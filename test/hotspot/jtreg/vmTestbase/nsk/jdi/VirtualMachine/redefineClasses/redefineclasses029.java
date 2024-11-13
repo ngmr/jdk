@@ -47,7 +47,7 @@ import java.io.*;
  * This test creates byte code, that has zero-length, and tries it
  * to redefine the debugee. The test expects <code>ClassFormatError</code> exception.
  * When <code>canRedefineClasses()</code> is <code>false</code>, the test is
- * considered as passed and completes it's execution.
+ * considered as passed and completes its execution.
  */
 
 public class redefineclasses029 {

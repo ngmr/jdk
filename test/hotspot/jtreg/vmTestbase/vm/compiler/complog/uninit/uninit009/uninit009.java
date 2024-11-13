@@ -44,7 +44,7 @@ package vm.compiler.complog.uninit.uninit009;
 import vm.compiler.complog.share.Constants;
 
 /**
- * Provoke OSR in initializer of super class with 'new' calls of it's subclass.
+ * Provoke OSR in initializer of super class with 'new' calls of its subclass.
  */
 
 public class uninit009 {

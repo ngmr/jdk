@@ -809,7 +809,7 @@ final class Win32ShellFolder2 extends ShellFolder {
 
 
     /**
-     * Look for (possibly special) child folder by it's path
+     * Look for (possibly special) child folder by its path
      *
      * @return The child shellfolder, or null if not found.
      */

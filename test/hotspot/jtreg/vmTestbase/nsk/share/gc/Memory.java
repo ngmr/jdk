@@ -116,7 +116,7 @@ public final class Memory {
 
         /**
          *  Get how many extra bytes an object occupies in the heap
-         *  compared to sum of it's fields.
+         *  compared to sum of its fields.
          *
          *  TODO: somehow determine the real value
          */
@@ -127,7 +127,7 @@ public final class Memory {
         }
         /**
          *  Get how many extra bytes an array occupies in the heap
-         *  compared to sum of it's fields.
+         *  compared to sum of its fields.
          *
          *  TODO: somehow determine the real value
          */

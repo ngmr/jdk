@@ -25,7 +25,7 @@
   @test
   @bug 4726853
   @key headful
-  @summary Checkbox is changing it's state after removing from CheckboxGroup
+  @summary Checkbox is changing its state after removing from CheckboxGroup
 */
 
 import java.awt.Checkbox;

@@ -308,7 +308,7 @@ public class AquaTextFieldSearch {
             reallyPaintBorder = false;
         }
 
-        // apparently without adjusting for odd height pixels, the search field "wobbles" relative to it's contents
+        // apparently without adjusting for odd height pixels, the search field "wobbles" relative to its contents
         public void paintBorder(final Component c, final Graphics g, final int x, final int y, final int width, final int height) {
             if (!reallyPaintBorder) return;
             super.paintBorder(c, g, x, y - (height % 2), width, height);

@@ -1537,7 +1537,7 @@ java.io.Serializable {
 
     /**
      * Calculate the baseline for the specified component.
-     * If {@code c} is positioned along it's baseline, the baseline is
+     * If {@code c} is positioned along its baseline, the baseline is
      * obtained and the {@code constraints} ascent, descent and
      * baseline resize behavior are set from the component; and true is
      * returned. Otherwise false is returned.

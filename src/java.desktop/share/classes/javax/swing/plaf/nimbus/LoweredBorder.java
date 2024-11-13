@@ -156,7 +156,7 @@ class LoweredBorder extends AbstractRegionPainter implements Border {
 
     /**
      * Returns whether or not the border is opaque.  If the border is opaque, it
-     * is responsible for filling in it's own background when painting.
+     * is responsible for filling in its own background when painting.
      */
     public boolean isBorderOpaque() {
         return false;

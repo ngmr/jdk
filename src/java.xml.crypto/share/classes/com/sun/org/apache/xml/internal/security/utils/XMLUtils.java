@@ -234,7 +234,7 @@ public final class XMLUtils {
 
     /**
      * Outputs a DOM tree to an {@link OutputStream}. <I>If an Exception is
-     * thrown during execution, it's StackTrace is output to System.out, but the
+     * thrown during execution, its StackTrace is output to System.out, but the
      * Exception is not re-thrown.</I>
      *
      * @param contextNode root node of the DOM tree

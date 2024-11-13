@@ -297,7 +297,7 @@ extends BaseMarkupSerializer {
             _printer.printText( rawName );
             _printer.indent();
 
-            // For each attribute print it's name and value as one part,
+            // For each attribute print its name and value as one part,
             // separated with a space so the element can be broken on
             // multiple lines.
             if (attrs != null) {
@@ -484,7 +484,7 @@ extends BaseMarkupSerializer {
             _printer.printText( tagName );
             _printer.indent();
 
-            // For each attribute print it's name and value as one part,
+            // For each attribute print its name and value as one part,
             // separated with a space so the element can be broken on
             // multiple lines.
             if (attrs != null) {
@@ -712,7 +712,7 @@ extends BaseMarkupSerializer {
             _printer.printText( tagName );
             _printer.indent();
 
-            // For each attribute print it's name and value as one part,
+            // For each attribute print its name and value as one part,
             // separated with a space so the element can be broken on
             // multiple lines.
             for ( i = 0 ; i < length ; ++i ) {

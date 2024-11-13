@@ -245,7 +245,7 @@ public class Color implements Paint, java.io.Serializable {
     private float falpha = 0.0f;
 
     /**
-     * The {@code ColorSpace}.  If {@code null}, then it's
+     * The {@code ColorSpace}.  If {@code null}, then its
      * default is sRGB.
      * @serial
      * @see #getColor

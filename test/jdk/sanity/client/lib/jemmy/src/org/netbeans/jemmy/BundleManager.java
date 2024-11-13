@@ -84,7 +84,7 @@ public class BundleManager {
     }
 
     /**
-     * Returns a Bundle given it's symbolic ID.
+     * Returns a Bundle given its symbolic ID.
      *
      * @param ID Symbolic bundle ID
      * @return the Bundle. A null reference is returned if no bundle with the

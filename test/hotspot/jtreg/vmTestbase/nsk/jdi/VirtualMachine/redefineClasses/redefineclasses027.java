@@ -50,7 +50,7 @@ import java.io.*;
  * This test corrupts byte-code of the version number and tries to redefine
  * the tested classes.
  * When <code>canRedefineClasses()</code> is <code>false</code>, the test is
- * considered as passed and completes it's execution.
+ * considered as passed and completes its execution.
  */
 
 public class redefineclasses027 {

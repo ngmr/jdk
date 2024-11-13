@@ -30,7 +30,7 @@
  * VM Testbase readme:
  * This test exercises JVMTI function IterateThroughHeap().
  * Test checks that with selected klass-filter callbacks will invoked only for
- * direct instances of that class and for it's instance fields.
+ * direct instances of that class and for its instance fields.
  * Test checks that assertion for both reachable and unreachable objects.
  *
  * @library /vmTestbase

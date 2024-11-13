@@ -785,7 +785,7 @@ public class ScrollPaneLayout
          * size (generally just its size).  Using the preferredSize is
          * reasonable because layout proceeds top down - so we expect
          * the viewport to be laid out next.  And we assume that the
-         * viewports layout manager will give the view it's preferred
+         * viewports layout manager will give the view its preferred
          * size.  One exception to this is when the view implements
          * Scrollable and Scrollable.getViewTracksViewport{Width,Height}
          * methods return true.  If the view is tracking the viewports

@@ -87,7 +87,7 @@ public interface Border
 
     /**
      * Returns whether or not the border is opaque.  If the border
-     * is opaque, it is responsible for filling in it's own
+     * is opaque, it is responsible for filling in its own
      * background when painting.
      *
      * @return true if this {@code Border} is opaque

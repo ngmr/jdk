@@ -1401,7 +1401,7 @@ class VirtualMachineImpl extends MirrorImpl
         }
 
         /*
-         * If the object wasn't in the table, or it's soft reference was
+         * If the object wasn't in the table, or its soft reference was
          * cleared, create a new instance.
          */
         if (object == null) {

@@ -97,7 +97,7 @@ public class GenerateJLIClassesPluginTest {
         validateHolderClasses(image);
         JImageValidator.validate(image.resolve("lib").resolve("modules"),
                 classFilesForSpecies(List.of(species)), // species should be in the image
-                classFilesForSpecies(List.of(species.substring(1)))); // but not it's immediate parent
+                classFilesForSpecies(List.of(species.substring(1)))); // but not its immediate parent
     }
 
     @Test

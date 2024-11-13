@@ -142,7 +142,7 @@ public class AccessibilityEventMonitor {
         }
 
         /**
-         * Installs PropertyChange listeners to the Accessible object, and it's
+         * Installs PropertyChange listeners to the Accessible object, and its
          * children (so long as the object isn't of TRANSIENT state).
          * @param a the Accessible object to add listeners to
          */
@@ -152,7 +152,7 @@ public class AccessibilityEventMonitor {
 
         /**
          * Installs PropertyChange listeners to the AccessibleContext object,
-         * and it's * children (so long as the object isn't of TRANSIENT state).
+         * and its * children (so long as the object isn't of TRANSIENT state).
          * @param a the Accessible object to add listeners to
          */
         private void installListeners(AccessibleContext ac) {
@@ -221,7 +221,7 @@ public class AccessibilityEventMonitor {
 
         /**
          * Removes PropertyChange listeners for the given Accessible object,
-         * it's children (so long as the object isn't of TRANSIENT state).
+         * its children (so long as the object isn't of TRANSIENT state).
          * @param a the Accessible object to remove listeners from
          */
         protected void removeListeners(Accessible a) {
@@ -230,7 +230,7 @@ public class AccessibilityEventMonitor {
 
         /**
          * Removes PropertyChange listeners for the given AccessibleContext
-         * object, it's children (so long as the object isn't of TRANSIENT
+         * object, its children (so long as the object isn't of TRANSIENT
          * state).
          * @param a the Accessible object to remove listeners from
          */

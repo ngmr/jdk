@@ -610,7 +610,7 @@ public class AttributedString {
         }
     }
 
-    // gets an attribute value, but returns an annotation only if it's range does not extend outside the range beginIndex..endIndex
+    // gets an attribute value, but returns an annotation only if its range does not extend outside the range beginIndex..endIndex
     private Object getAttributeCheckRange(Attribute attribute, int runIndex, int beginIndex, int endIndex) {
         Object value = getAttribute(attribute, runIndex);
         if (value instanceof Annotation) {

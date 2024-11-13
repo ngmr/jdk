@@ -816,7 +816,7 @@ final class DOM3TreeWalker {
             } else if (
                 addAttr && !xmlnsAttr) { // if the node is not a namespace node
                 // If namespace-declarations=true, add the node with the Attr nodes namespaceURI
-                // else add the node setting it's namespace to null or else the serializer will later
+                // else add the node setting its namespace to null or else the serializer will later
                 // attempt to add a xmlns attr for the prefixed attribute
                 if (((fFeatures & NAMESPACEDECLS) != 0) && (attrNS != null)) {
                     fSerializer.addAttribute(
@@ -1404,7 +1404,7 @@ final class DOM3TreeWalker {
     }
 
     /**
-     * Checks if an attr node is well-formed, by checking it's Name and value
+     * Checks if an attr node is well-formed, by checking its Name and value
      * for well-formedness.
      *
      * @param data The contents of the comment node
@@ -1500,7 +1500,7 @@ final class DOM3TreeWalker {
     }
 
     /**
-     * Checks if a PI node is well-formed, by checking it's Name and data
+     * Checks if a PI node is well-formed, by checking its Name and data
      * for well-formedness.
      *
      * @param data The contents of the comment node
@@ -1549,7 +1549,7 @@ final class DOM3TreeWalker {
     }
 
     /**
-     * Checks if an CDATASection node is well-formed, by checking it's data
+     * Checks if an CDATASection node is well-formed, by checking its data
      * for well-formedness.  Note that the presence of a CDATA termination mark
      * in the contents of a CDATASection is handled by the parameter
      * spli-cdata-sections
@@ -1608,7 +1608,7 @@ final class DOM3TreeWalker {
     }
 
     /**
-     * Checks if an EntityRefernece node is well-formed, by checking it's node name.  Then depending
+     * Checks if an EntityRefernece node is well-formed, by checking its node name.  Then depending
      * on whether it is referenced in Element content or in an Attr Node, checks if the EntityReference
      * references an unparsed entity or a external entity and if so throws raises the
      * appropriate well-formedness error.

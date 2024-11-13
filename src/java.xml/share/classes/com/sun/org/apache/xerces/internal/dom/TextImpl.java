@@ -378,7 +378,7 @@ public class TextImpl
      * must fail before performing any modification of the document, raising a
      * DOMException with the code NO_MODIFICATION_ALLOWED_ERR. Traverse previous
      * siblings of the node to be replaced. If a previous sibling is an
-     * EntityReference node, get it's last child. If the last child was a Text
+     * EntityReference node, get its last child. If the last child was a Text
      * or CDATASection node and its previous siblings are neither a replaceable
      * EntityReference or Text or CDATASection nodes, return false. IF the last
      * child was neither Text nor CDATASection nor a replaceable EntityReference
@@ -463,7 +463,7 @@ public class TextImpl
      * must fail before performing any modification of the document, raising a
      * DOMException with the code NO_MODIFICATION_ALLOWED_ERR. Traverse previous
      * siblings of the node to be replaced. If a previous sibling is an
-     * EntityReference node, get it's last child. If the first child was a Text
+     * EntityReference node, get its last child. If the first child was a Text
      * or CDATASection node and its next siblings are neither a replaceable
      * EntityReference or Text or CDATASection nodes, return false. IF the first
      * child was neither Text nor CDATASection nor a replaceable EntityReference

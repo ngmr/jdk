@@ -34,7 +34,7 @@ import jdk.test.whitebox.WhiteBox;
  * SerialExecutionDebuggee handles 2 commands:
  *  - COMMAND_EXECUTE_DEBUGGEE:<debuggee_class_name> :
  *  initialize 'currentDebuggee' with instance of class 'debuggee_class_name'(this class should
- *  be subclass of nsk.share.jpda.AbstractDebugeeTest) and execute it's method doTest()
+ *  be subclass of nsk.share.jpda.AbstractDebugeeTest) and execute its method doTest()
  *
  *  - COMMAND_CLEAR_DEBUGGEE
  *  set 'currentDebuggee' to null

@@ -298,7 +298,7 @@ public class ReflectionTest extends AbstractReflectionTest {
             if (!expectedExc.isAssignableFrom(target.getClass()) &&
                 !initialExpectedExcName.equals(excName)) {
                 throw new TestFailure(
-                        format("Caught exception as expected, but it's type is wrong: expected: %s; actual: %s.",
+                        format("Caught exception as expected, but its type is wrong: expected: %s; actual: %s.",
                                 expectedExcName, excName), target);
             }
         }
@@ -343,7 +343,7 @@ public class ReflectionTest extends AbstractReflectionTest {
     }
 
     /**
-     * Run individual assertion for the test by it's name.
+     * Run individual assertion for the test by its name.
      *
      * @param test
      * @throws Throwable

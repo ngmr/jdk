@@ -171,7 +171,7 @@ public class MHInvokeWithArgsTest extends AbstractReflectionTest {
                     !originalExpectedExcName.equals(actualExc.getName()) &&
                     !expectedExc.isAssignableFrom(target.getClass())) {
                     throw new TestFailure(
-                            String.format("Caught exception as expected, but it's type is wrong: expected: %s; actual: %s.",
+                            String.format("Caught exception as expected, but its type is wrong: expected: %s; actual: %s.",
                                     expectedExcName, actualExc.getName()), target);
                 }
             }
@@ -209,7 +209,7 @@ public class MHInvokeWithArgsTest extends AbstractReflectionTest {
     }
 
     /**
-     * Run individual assertion for the test by it's name.
+     * Run individual assertion for the test by its name.
      *
      * @param test
      * @throws Throwable

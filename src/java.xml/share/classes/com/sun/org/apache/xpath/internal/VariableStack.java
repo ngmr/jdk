@@ -452,7 +452,7 @@ public class VariableStack implements Cloneable
   }
 
   /**
-   * Get a variable based on it's qualified name.
+   * Get a variable based on its qualified name.
    * This is for external use only.
    *
    * @param xctxt The XPath context, which must be passed in order to

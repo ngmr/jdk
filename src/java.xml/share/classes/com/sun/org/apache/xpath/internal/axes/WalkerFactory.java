@@ -1115,7 +1115,7 @@ public class WalkerFactory
   }
 
   /**
-   * Analyze a step and give information about it's predicates.  Right now this
+   * Analyze a step and give information about its predicates.  Right now this
    * just returns true or false if the step has a predicate.
    *
    * @param compiler non-null reference to compiler object that has processed

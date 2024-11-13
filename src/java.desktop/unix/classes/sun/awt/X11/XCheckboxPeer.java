@@ -454,7 +454,7 @@ class XCheckboxPeer extends XComponentPeer implements CheckboxPeer {
                     CheckboxGroup cbg = checkBoxGroup;
                     // Bugid 4039594. If this is the current Checkbox in
                     // a CheckboxGroup, then return to prevent deselection.
-                    // Otherwise, it's logical state will be turned off,
+                    // Otherwise, its logical state will be turned off,
                     // but it will appear on.
                     if ((cbg != null) && (cbg.getSelectedCheckbox() == cb) &&
                         cb.getState()) {

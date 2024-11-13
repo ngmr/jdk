@@ -273,7 +273,7 @@ public class ActionProducer<R, P> extends Thread
 
     /**
      * Launch an action in a separate thread of execution. When the action
-     * finishes, record that fact. If the action finishes normally, store it's
+     * finishes, record that fact. If the action finishes normally, store its
      * result. Use {@code getFinished()} and {@code getResult} to
      * answer questions about test completion and return value, respectively.
      *
@@ -313,7 +313,7 @@ public class ActionProducer<R, P> extends Thread
     }
 
     /**
-     * Launch some action. Pass the action parameters and get it's return value,
+     * Launch some action. Pass the action parameters and get its return value,
      * too.
      *
      * @param obj Parameter used to configure the execution of whatever this

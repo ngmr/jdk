@@ -1433,7 +1433,7 @@ public class BasicOptionPaneUI extends OptionPaneUI {
                 // Option Pane Auditory Cue Activation
                 // only respond to "ancestor" changes
                 // the idea being that a JOptionPane gets a JDialog when it is
-                // set to appear and loses it's JDialog when it is dismissed.
+                // set to appear and loses its JDialog when it is dismissed.
                 if ("ancestor" == e.getPropertyName()) {
                     JOptionPane op = (JOptionPane)e.getSource();
                     boolean isComingUp;

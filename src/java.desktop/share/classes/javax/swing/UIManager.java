@@ -1360,7 +1360,7 @@ public class UIManager implements Serializable
      * If the user has specified a default look and feel, use that.
      * Otherwise use the look and feel that's native to this platform.
      * If this code is called after the application has explicitly
-     * set it's look and feel, do nothing.
+     * set its look and feel, do nothing.
      *
      * @see #maybeInitialize
      */

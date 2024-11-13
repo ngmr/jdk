@@ -440,7 +440,7 @@ public class ScrollPane extends Container implements Accessible {
      * If the viewport area is bigger than the preferred size
      * of the child then the child is allocated enough
      * to fill the viewport, otherwise the child is given
-     * it's preferred size.
+     * its preferred size.
      */
     Dimension calculateChildSize() {
         //

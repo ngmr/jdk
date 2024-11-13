@@ -420,7 +420,7 @@ public abstract class AbstractDocument implements Document, Serializable {
      * while there are active rendering runnables.  If the runnable
      * throws an exception, its lock will be safely released.
      * There is no protection against a runnable that never exits,
-     * which will effectively leave the document locked for it's
+     * which will effectively leave the document locked for its
      * lifetime.
      * <p>
      * If the given runnable attempts to make any mutations in
@@ -1931,7 +1931,7 @@ public abstract class AbstractDocument implements Document, Serializable {
         public Object getAttribute(Object attrName) {
             Object value = attributes.getAttribute(attrName);
             if (value == null) {
-                // The delegate nor it's resolvers had a match,
+                // The delegate nor its resolvers had a match,
                 // so we'll try to resolve through the parent
                 // element.
                 AttributeSet a = (parent != null) ? parent.getAttributes() : null;

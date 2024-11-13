@@ -144,7 +144,7 @@ public class NamedGroupsWithCipherSuite extends SSLSocketTemplate {
 
     public static void main(String[] args) throws Exception {
         String namedGroup = args[0];
-        // Named group is set as per run argument with no change in it's alphabet
+        // Named group is set as per run argument with no change in its alphabet
         System.setProperty("jdk.tls.namedGroups", namedGroup);
         System.out.println("NamedGroup: " + namedGroup);
 

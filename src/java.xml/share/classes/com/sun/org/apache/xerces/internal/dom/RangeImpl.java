@@ -1712,7 +1712,7 @@ public class RangeImpl  implements Range {
      *               return a cloned node.
      *
      *               <li><code>DELETE_CONTENTS</code> - will delete the
-     *               node from it's parent, but will return null.
+     *               node from its parent, but will return null.
      *               </ol>
      *
      * @return Returns a node that is the result of visiting the node.
@@ -1748,7 +1748,7 @@ public class RangeImpl  implements Range {
      *               return a cloned node.
      *
      *               <li><code>DELETE_CONTENTS</code> - will delete the
-     *               node from it's parent, but will return null.
+     *               node from its parent, but will return null.
      *               </ol>
      *
      * @return Returns a node that is the result of visiting the node.
@@ -1797,7 +1797,7 @@ public class RangeImpl  implements Range {
      *               return a cloned node.
      *
      *               <li><code>DELETE_CONTENTS</code> - will delete the
-     *               node from it's parent, but will return null.
+     *               node from its parent, but will return null.
      *               </ol>
      *
      * @return Returns a node that is the result of visiting the node.
@@ -1843,7 +1843,7 @@ public class RangeImpl  implements Range {
      *               return a cloned node.
      *
      *               <li><code>DELETE_CONTENTS</code> - will delete the
-     *               node from it's parent, but will return null.
+     *               node from its parent, but will return null.
      *               </ol>
      *
      * @return Returns a node that is the result of visiting the node.

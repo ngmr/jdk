@@ -604,7 +604,7 @@ public abstract class BaseRowSet implements Serializable, Cloneable {
     private void checkforRowSetInterface() throws SQLException {
         if ((this instanceof javax.sql.RowSet) == false) {
             throw new SQLException("The class extending abstract class BaseRowSet " +
-                "must implement javax.sql.RowSet or one of it's sub-interfaces.");
+                "must implement javax.sql.RowSet or one of its sub-interfaces.");
         }
     }
 
@@ -619,7 +619,7 @@ public abstract class BaseRowSet implements Serializable, Cloneable {
     *
     * @throws SQLException if the class extending the <code>BaseRowSet</code>
     *     abstract class does not implement the <code>RowSet</code> interface or
-    *     one of it's sub-interfaces.
+    *     one of its sub-interfaces.
     */
     protected void notifyCursorMoved() throws SQLException {
         checkforRowSetInterface();
@@ -644,7 +644,7 @@ public abstract class BaseRowSet implements Serializable, Cloneable {
     *
     * @throws SQLException if the class extending the <code>BaseRowSet</code>
     *     abstract class does not implement the <code>RowSet</code> interface or
-    *     one of it's sub-interfaces.
+    *     one of its sub-interfaces.
     */
     protected void notifyRowChanged() throws SQLException {
         checkforRowSetInterface();
@@ -669,7 +669,7 @@ public abstract class BaseRowSet implements Serializable, Cloneable {
     *
     * @throws SQLException if the class extending the <code>BaseRowSet</code>
     *     abstract class does not implement the <code>RowSet</code> interface or
-    *     one of it's sub-interfaces.
+    *     one of its sub-interfaces.
     */
     protected void notifyRowSetChanged() throws SQLException {
         checkforRowSetInterface();

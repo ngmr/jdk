@@ -51,7 +51,7 @@ import java.io.*;
  *
  * In case, a step event didn't arrive from <code>method_B</code>, test fails.
  * When <code>canRedefineClasses()</code> is <code>false</code>, the test is
- * considered as passed and completes it's execution.
+ * considered as passed and completes its execution.
  *
  * The test should be compiled with <code>-g</code> option, so cfg-file redefines
  * <code>JAVA_OPTS</code> variable.

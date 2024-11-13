@@ -189,7 +189,7 @@ public class NonBlockingReaderImpl extends NonBlockingReader {
         /*
          * ch is the character that was just read. Either we set it because
          * a local read was performed or the read thread set it (or failed to
-         * change it).  We will return it's value, but if this was a peek
+         * change it).  We will return its value, but if this was a peek
          * operation, then we leave it in place.
          */
         int ret = ch;

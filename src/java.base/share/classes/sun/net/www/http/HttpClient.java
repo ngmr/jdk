@@ -361,7 +361,7 @@ public class HttpClient extends NetworkClient {
                         ret.unlock();
                     }
                 } else {
-                    // We cannot return this connection to the cache as it's
+                    // We cannot return this connection to the cache as its
                     // KeepAliveTimeout will get reset. We simply close the connection.
                     // This should be fine as it is very rare that a connection
                     // to the same host will not use the same proxy.
@@ -714,7 +714,7 @@ public class HttpClient extends NetworkClient {
          *
          * If this isn't valid HTTP, then we don't try to parse a header
          * out of the beginning of the response into the responses,
-         * and instead just queue up the output stream to it's very beginning.
+         * and instead just queue up the output stream to its very beginning.
          * This seems most reasonable, and is what the NN browser does.
          */
 
@@ -778,7 +778,7 @@ public class HttpClient extends NetworkClient {
          *
          * If this isn't valid HTTP, then we don't try to parse a header
          * out of the beginning of the response into the responses,
-         * and instead just queue up the output stream to it's very beginning.
+         * and instead just queue up the output stream to its very beginning.
          * This seems most reasonable, and is what the NN browser does.
          */
 

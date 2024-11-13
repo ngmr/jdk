@@ -25,7 +25,7 @@
  * @test
  * @bug 8048209
  * @summary Check that Collections.synchronizedNavigableSet().tailSet() is using
- * the same lock object as it's source.
+ * the same lock object as its source.
  * @modules java.base/java.util:open
  * @run testng SyncSubMutexes
  */

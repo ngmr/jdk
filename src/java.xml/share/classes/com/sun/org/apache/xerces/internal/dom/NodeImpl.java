@@ -783,7 +783,7 @@ public abstract class NodeImpl
         //    they they are the attribute node itself, unless the 2 nodes
         //    are both children of the same attribute.
         //
-        // 5. How does an ENTITY_REFERENCE node compare with it's children?
+        // 5. How does an ENTITY_REFERENCE node compare with its children?
         //    Given the DOM, it should precede its children as an ancestor.
         //    Given "document order",  does it represent the same position?
         //    Current assumption: An ENTITY_REFERENCE node is an ancestor of its

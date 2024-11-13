@@ -100,7 +100,7 @@ public final class GridBagLayoutInfo implements java.io.Serializable {
 
     /**
      * Creates an instance of GridBagLayoutInfo representing {@code GridBagLayout}
-     * grid cells with it's own parameters.
+     * grid cells with its own parameters.
      * @param width the columns
      * @param height the rows
      * @since 1.6

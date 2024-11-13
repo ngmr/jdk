@@ -83,7 +83,7 @@ import javax.swing.plaf.ButtonUI;
  * @author Jeff Dinkins
  * @since 1.2
  */
-@JavaBean(description = "A component which can display it's state as selected or deselected.")
+@JavaBean(description = "A component which can display its state as selected or deselected.")
 @SwingContainer(false)
 @SuppressWarnings("serial") // Same-version serialization only
 public class JRadioButton extends JToggleButton implements Accessible {

@@ -801,7 +801,7 @@ public class AsyncBoxView extends View {
      * <p>
      * This is expected to be called by the GUI thread, holding a
      * read-lock on the associated model.  It is implemented to
-     * locate the child view and determine it's allocation with a
+     * locate the child view and determine its allocation with a
      * lock on the ChildLocator object, and to call viewToModel
      * on the child view with a lock on the ChildState object
      * to avoid interaction with the layout thread.
@@ -819,11 +819,11 @@ public class AsyncBoxView extends View {
         int index;  // child index to forward to
         Shape ca;   // child allocation
 
-        // locate the child view and it's allocation so that
+        // locate the child view and its allocation so that
         // we can forward to it.  Make sure the layout thread
         // doesn't change anything by trying to flush changes
         // to the parent while the GUI thread is trying to
-        // find the child and it's allocation.
+        // find the child and its allocation.
         synchronized (locator) {
             index = locator.getViewIndexAtPoint(x, y, a);
             ca = locator.getChildAllocation(index, a);
@@ -962,7 +962,7 @@ public class AsyncBoxView extends View {
          * Notification that a child changed.  This can effect
          * whether or not new offset calculations are needed.
          * This is called by a ChildState object that has
-         * changed it's major span.  This can therefore be
+         * changed its major span.  This can therefore be
          * called by multiple threads.
          * @param cs the child state
          */
@@ -1290,7 +1290,7 @@ public class AsyncBoxView extends View {
                     }
 
                     // setting the child size on the minor axis
-                    // may have caused it to change it's preference
+                    // may have caused it to change its preference
                     // along the major axis.
                     updateChild();
                 }

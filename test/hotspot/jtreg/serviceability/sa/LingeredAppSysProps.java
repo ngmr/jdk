@@ -28,7 +28,7 @@ import jdk.test.lib.apps.LingeredApp;
 public class LingeredAppSysProps extends LingeredApp {
     public static void main(String args[]) {
         // Make sure the user.timezone property gets created so we get consistent results.
-        // It's normally not created on startup, but it's creation is being trigger when
+        // It's normally not created on startup, but its creation is being trigger when
         // "jinfo -syprops" is used. This way we force it to be created before then.
         java.util.TimeZone.getDefault();
 

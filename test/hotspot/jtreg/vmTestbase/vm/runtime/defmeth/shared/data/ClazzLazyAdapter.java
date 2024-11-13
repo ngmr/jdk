@@ -28,7 +28,7 @@ import vm.runtime.defmeth.shared.data.method.Method;
 
 /**
  * Wrapper around some {@link Clazz} instance. It delegates all calls
- * to underlying instance. Lazy resolution of target instance by it's name
+ * to underlying instance. Lazy resolution of target instance by its name
  * allows to delay resolution till runtime and "tie-the-knot" in recursive
  * hierarchies.
  */

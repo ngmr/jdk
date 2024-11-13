@@ -33,7 +33,7 @@ import nsk.monitoring.ThreadMXBean.BarrierHandler;
  * Tests getThreadAllocatedBytes(long id) function of com.sun.management.ThreadMXBean
  * <p>
  *  - Test starts thread that does not allocate any additional memory and stores
- * it's getThreadAllocatedBytes() result (value1)
+ * its getThreadAllocatedBytes() result (value1)
  * Then it starts several other threads that does allocate memory and, after these
  * threads are finished, checks that getThreadAllocatedBytes() result (value2)
  * does not differ from value1

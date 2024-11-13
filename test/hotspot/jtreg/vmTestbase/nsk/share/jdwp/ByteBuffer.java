@@ -65,7 +65,7 @@ public class ByteBuffer {
 
     /**
      * Make an empty <code>ByteBuffer</code> object with given initial capacity.
-     * When there is no space for a new byte in a buffer it's capacity
+     * When there is no space for a new byte in a buffer its capacity
      * grows by Delta.
      */
     public ByteBuffer(int InitialSize, int Delta) {

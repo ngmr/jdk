@@ -169,7 +169,7 @@ public class RepaintTest {
     }
     private boolean paintAndRepaint(Component comp, String prefix) throws Exception {
         boolean passed = true;
-        //Capture the component & compare it's dimensions
+        //Capture the component & compare its dimensions
         //before iconifying & after frame comes back from
         //iconified to normal state
         System.out.printf("paintAndRepaint %s %s\n", prefix, comp);

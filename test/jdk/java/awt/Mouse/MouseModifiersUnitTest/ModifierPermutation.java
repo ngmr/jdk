@@ -98,7 +98,7 @@ public class ModifierPermutation {
         //Top limit is the factorial of the number of existing buttons
         for (int k = 0; k < factorial(mouseButtons.length)-1; k++){
             //now we will press 2 up to maximum buttons and release them in different order and listen for
-            // PRESSED events and check it's ExModifiers
+            // PRESSED events and check its ExModifiers
             for (int buttonsToPressNumber = 2; buttonsToPressNumber <= BUTTONSNUMBER; buttonsToPressNumber++ ){
                 System.out.println(">>>");
 

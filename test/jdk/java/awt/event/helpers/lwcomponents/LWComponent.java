@@ -46,7 +46,7 @@ import java.awt.event.*;
  *
  * So it is paintEnabled that the component should implement.  This method
  * needs to know the dimensions of the client area (getClientRegion?) and
- * the Graphics needs to have it's clip region set appropriately.<p>
+ * the Graphics needs to have its clip region set appropriately.<p>
  *
  * <b>KVETCHING</b>: <i>Kvetch</i> is a Yiddish word which means, basically,
  * to complain very precisely.  The LWComponent family tracks various pieces

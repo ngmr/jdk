@@ -955,7 +955,7 @@ public final class XSLTC {
             map.put(className + ".class", attr);
             jos.putNextEntry(new JarEntry(className + ".class"));
             final ByteArrayOutputStream out = new ByteArrayOutputStream(2048);
-            clazz.dump(out); // dump() closes it's output stream
+            clazz.dump(out); // dump() closes its output stream
             out.writeTo(jos);
         }
         jos.close();

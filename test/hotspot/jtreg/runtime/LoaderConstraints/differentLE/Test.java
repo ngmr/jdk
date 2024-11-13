@@ -72,7 +72,7 @@ public class Test {
     // Then, the second class loader PreemptingClassLoader will load B. Recursive,
     // it tries to load interface A. As it does not find it (there is no A.impl2),
     // it asks the super classloader for A.
-    // Then it loads the D2 variant of D from the current working directory and it's
+    // Then it loads the D2 variant of D from the current working directory and its
     // superclass C. This fails as D1 is already loaded with the same superclass.
 
     // Break the expectedErrorMessage into 2 pieces since the loader name will include

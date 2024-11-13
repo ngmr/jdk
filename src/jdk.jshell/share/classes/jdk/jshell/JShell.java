@@ -186,7 +186,7 @@ public class JShell implements AutoCloseable {
         Builder() { }
 
         /**
-         * Sets the input for the running evaluation (it's {@code System.in}). Note:
+         * Sets the input for the running evaluation (its {@code System.in}). Note:
          * applications that use {@code System.in} for snippet or other
          * user input cannot use {@code System.in} as the input stream for
          * the remote process.
@@ -209,7 +209,7 @@ public class JShell implements AutoCloseable {
         }
 
         /**
-         * Sets the output for the running evaluation (it's {@code System.out}).
+         * Sets the output for the running evaluation (its {@code System.out}).
          * The controlling process and
          * the remote process can share {@code System.out}.
          * <p>
@@ -226,7 +226,7 @@ public class JShell implements AutoCloseable {
         }
 
         /**
-         * Sets the error output for the running evaluation (it's
+         * Sets the error output for the running evaluation (its
          * {@code System.err}). The controlling process and the remote
          * process can share {@code System.err}.
          * <p>

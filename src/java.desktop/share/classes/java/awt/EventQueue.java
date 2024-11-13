@@ -419,7 +419,7 @@ public class EventQueue {
 
     /*
      * Should avoid of calling this method by any means
-     * as it's working time is dependent on EQ length.
+     * as its working time is dependent on EQ length.
      * In the worst case this method alone can slow down the entire application
      * 10 times by stalling the Event processing.
      * Only here by backward compatibility reasons.

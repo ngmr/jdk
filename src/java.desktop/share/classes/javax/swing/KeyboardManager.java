@@ -47,7 +47,7 @@ import sun.awt.EmbeddedFrame;
   * If none of the listeners "consumes" the event then the keybindings get a shot.
   * This is where things start to get interesting.  First, KeyStrokes defined with the
   * WHEN_FOCUSED condition get a chance.  If none of these want the event, then the component
-  * walks though it's parents looked for actions of type WHEN_ANCESTOR_OF_FOCUSED_COMPONENT.
+  * walks though its parents looked for actions of type WHEN_ANCESTOR_OF_FOCUSED_COMPONENT.
   *
   * If no one has taken it yet, then it winds up here.  We then look for components registered
   * for WHEN_IN_FOCUSED_WINDOW events and fire to them.  Note that if none of those are found

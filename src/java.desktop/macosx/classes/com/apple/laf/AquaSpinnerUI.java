@@ -156,7 +156,7 @@ public class AquaSpinnerUI extends SpinnerUI {
         updateEnabledState();
         installKeyboardActions();
 
-        // this doesn't work because JSpinner calls setOpaque(true) directly in it's constructor
+        // this doesn't work because JSpinner calls setOpaque(true) directly in its constructor
         //    LookAndFeel.installProperty(spinner, "opaque", Boolean.FALSE);
         // ...so we have to handle the is/was opaque ourselves
         wasOpaque = spinner.isOpaque();

@@ -156,7 +156,7 @@ public class TestFormatter {
         }
 
         // expected usually comes from Calendar which only has milliseconds
-        // precision. So we're going to replace it's N:[nanos] stamp with
+        // precision. So we're going to replace its N:[nanos] stamp with
         // the correct value for nanos.
         if ((dt instanceof TemporalAccessor) && expected != null) {
             try {

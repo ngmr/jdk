@@ -149,7 +149,7 @@ public abstract class BaseMarkupSerializer
     /**
      * Holds array of all element states that have been entered.
      * The array is automatically resized. When leaving an element,
-     * it's state is not removed but reused when later returning
+     * its state is not removed but reused when later returning
      * to the same nesting level.
      */
     private ElementState[]  _elementStates;

@@ -59,7 +59,7 @@ final class GestureHandler {
         component.putClientProperty(CLIENT_PROPERTY, newHandler);
     }
 
-    // asks the installed GestureHandler to remove it's listener (does not uninstall the GestureHandler)
+    // asks the installed GestureHandler to remove its listener (does not uninstall the GestureHandler)
     static void removeGestureListenerFrom(final JComponent component, final GestureListener listener) {
         final Object value = component.getClientProperty(CLIENT_PROPERTY);
         if (!(value instanceof GestureHandler)) return;

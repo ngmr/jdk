@@ -320,7 +320,7 @@ public class SAXTFactoryTest {
     public void testcase10() throws Exception {
         String outputFile = USER_DIR + "saxtf010.out";
         String goldFile = GOLDEN_DIR + "saxtf010GF.out";
-        // The transformer will use a SAX parser as it's reader.
+        // The transformer will use a SAX parser as its reader.
         XMLReader reader = XMLReaderFactory.createXMLReader();
         SAXTransformerFactory saxTFactory
                 = (SAXTransformerFactory)TransformerFactory.newInstance();
@@ -330,7 +330,7 @@ public class SAXTFactoryTest {
         filter.setContentHandler(new MyContentHandler(outputFile));
 
         // Now, when you call transformer.parse, it will set itself as
-        // the content handler for the parser object (it's "parent"), and
+        // the content handler for the parser object (its "parent"), and
         // will then call the parse method on the parser.
         filter.parse(new InputSource(XML_FILE));
         assertTrue(compareWithGold(goldFile, outputFile));
@@ -345,7 +345,7 @@ public class SAXTFactoryTest {
     public void testcase11() throws Exception {
         String outputFile = USER_DIR + "saxtf011.out";
         String goldFile = GOLDEN_DIR + "saxtf011GF.out";
-        // The transformer will use a SAX parser as it's reader.
+        // The transformer will use a SAX parser as its reader.
         XMLReader reader = XMLReaderFactory.createXMLReader();
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
         dbf.setNamespaceAware(true);
@@ -362,7 +362,7 @@ public class SAXTFactoryTest {
         filter.setContentHandler(new MyContentHandler(outputFile));
 
         // Now, when you call transformer.parse, it will set itself as
-        // the content handler for the parser object (it's "parent"), and
+        // the content handler for the parser object (its "parent"), and
         // will then call the parse method on the parser.
         filter.parse(new InputSource(XML_FILE));
         assertTrue(compareWithGold(goldFile, outputFile));
@@ -377,7 +377,7 @@ public class SAXTFactoryTest {
     public void testcase12() throws Exception {
         String outputFile = USER_DIR + "saxtf012.out";
         String goldFile = GOLDEN_DIR + "saxtf012GF.out";
-        // The transformer will use a SAX parser as it's reader.
+        // The transformer will use a SAX parser as its reader.
         XMLReader reader = XMLReaderFactory.createXMLReader();
 
         InputSource is = new InputSource(new FileInputStream(XSLT_FILE));
@@ -391,7 +391,7 @@ public class SAXTFactoryTest {
         filter.setContentHandler(new MyContentHandler(outputFile));
 
         // Now, when you call transformer.parse, it will set itself as
-        // the content handler for the parser object (it's "parent"), and
+        // the content handler for the parser object (its "parent"), and
         // will then call the parse method on the parser.
         filter.parse(new InputSource(XML_FILE));
         assertTrue(compareWithGold(goldFile, outputFile));
@@ -407,7 +407,7 @@ public class SAXTFactoryTest {
         String outputFile = USER_DIR + "saxtf013.out";
         String goldFile = GOLDEN_DIR + "saxtf013GF.out";
         try(FileInputStream fis = new FileInputStream(XML_FILE)) {
-            // The transformer will use a SAX parser as it's reader.
+            // The transformer will use a SAX parser as its reader.
             XMLReader reader = XMLReaderFactory.createXMLReader();
 
             SAXTransformerFactory saxTFactory

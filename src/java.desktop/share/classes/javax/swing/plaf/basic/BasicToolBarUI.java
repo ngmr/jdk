@@ -1379,8 +1379,8 @@ public class BasicToolBarUI extends ToolBarUI implements SwingConstants
             if (propertyName == "lookAndFeel") {
                 toolBar.updateUI();
             } else if (propertyName == "orientation") {
-                // Search for JSeparator components and change it's orientation
-                // to match the toolbar and flip it's orientation.
+                // Search for JSeparator components and change its orientation
+                // to match the toolbar and flip its orientation.
                 Component[] components = toolBar.getComponents();
                 int orientation = ((Integer)evt.getNewValue()).intValue();
                 JToolBar.Separator separator;

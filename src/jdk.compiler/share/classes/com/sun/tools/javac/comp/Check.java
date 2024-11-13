@@ -3214,7 +3214,7 @@ public class Check {
          *
          * At this point we need to remove all the annotations that are not in place before going on with the annotation
          * party. On top of the above there is the issue that there is no AST representing record components, just symbols
-         * so the corresponding field has been holding all the annotations and it's metadata has been modified as if it
+         * so the corresponding field has been holding all the annotations and its metadata has been modified as if it
          * was both a field and a record component.
          *
          * So there are two places where we need to trim annotations from: the metadata of the symbol and / or the modifiers

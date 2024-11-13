@@ -168,7 +168,7 @@ import java.beans.*;
  *    <td>Components that honor this property only use the value if it is
  *    {@code non-null}. For example, if you set an {@code Action} that has a
  *    {@code null} value for {@code SELECTED_KEY} on a {@code JToggleButton},
- *    the {@code JToggleButton} will not update it's selected state in any way.
+ *    the {@code JToggleButton} will not update its selected state in any way.
  *    Similarly, any time the {@code JToggleButton}'s selected state changes it
  *    will only set the value back on the {@code Action} if the {@code Action}
  *    has a {@code non-null} value for {@code SELECTED_KEY}.

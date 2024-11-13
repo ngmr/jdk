@@ -36,7 +36,7 @@ import javax.management.*;
  * {@link nsk.monitoring.share.proxy.ProxyMonitoringFactory} obtains
  * proxies for a given MBeanServer.
  * {@link nsk.monitoring.share.server.ServerMonitoringFactory} obtains
- * MXBeans that use MBeanServer property methods to do it's work.
+ * MXBeans that use MBeanServer property methods to do its work.
  *
  * @see nsk.monitoring.share.direct.DirectMonitoringFactory
  * @see nsk.monitoring.share.proxy.ProxyMonitoringFactory

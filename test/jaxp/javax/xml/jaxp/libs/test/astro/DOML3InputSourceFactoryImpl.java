@@ -55,7 +55,7 @@ import org.xml.sax.InputSource;
  * DOM Level 3 implementations to build a Document (DOM) from the
  * astro input file (XML) and then will serialize the DOM. The serialized DOM
  * of the astro input file is then used to create the sax InputSource
- * and set it's system id. It is then returned to the caller.
+ * and set its system id. It is then returned to the caller.
  *
  */
 public class DOML3InputSourceFactoryImpl implements InputSourceFactory {

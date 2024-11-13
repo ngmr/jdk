@@ -127,7 +127,7 @@ public class PerfDataBuffer extends PerfDataBufferImpl {
         // create pseudo monitors
         buildPseudoMonitors(map);
 
-        // wait for the target JVM to indicate that it's intrumentation
+        // wait for the target JVM to indicate that its intrumentation
         // buffer is safely accessible
         synchWithTarget();
 

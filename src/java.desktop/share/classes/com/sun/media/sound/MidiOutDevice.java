@@ -112,7 +112,7 @@ final class MidiOutDevice extends AbstractMidiDevice {
                         if (length>1) {
                             /* We handle meta messages here. The message
                                system reset (FF) doesn't get until here,
-                               because it's length is only 1. So if we see
+                               because its length is only 1. So if we see
                                a status byte of FF, it's sure that we
                                have a Meta message. */
                             if (status == 0xFF) {

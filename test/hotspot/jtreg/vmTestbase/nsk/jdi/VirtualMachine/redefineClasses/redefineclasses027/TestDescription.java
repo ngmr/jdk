@@ -40,7 +40,7 @@
  *         redefineclasses027i.java - tested interface
  *     This test corrupts byte-code of the version number and tries to redefine
  *     the tested classes. When canRedefineClasses() is false, the test is
- *     considered as passed and completes it's execution.
+ *     considered as passed and completes its execution.
  * COMMENTS:
  *     #4736633 is fixed
  *     Test was fixed according to test bug:

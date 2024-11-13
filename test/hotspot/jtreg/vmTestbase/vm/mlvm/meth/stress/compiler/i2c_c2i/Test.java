@@ -32,14 +32,14 @@
  * DESCRIPTION
  *     The test attempts to check MethodHandle i2c and c2i adapters by using sequences.
  *     Then it forces compilation of some of intermediate method handles. The test enables
- *     diagnostic printing of compilation and analyse it's own standard output
+ *     diagnostic printing of compilation and analyse its own standard output
  *     to see if method is really has been compiled. When some subsequence is compiled,
  *     the test calls the whole sequence and forces decompilation (by using uncommon trap logic)
  *     of some smaller subsequence. This way both i2c and c2i adapters are created.
  *     The test compares result of calling the sequence of MHs with the results computed
  *     by the test and fails if the result is different.
  *     The test is a random one, it makes random sequences of MH and calls random subsequences.
- *     To facilitate reproducing test failures, it prints it's random seed, which can be fed
+ *     To facilitate reproducing test failures, it prints its random seed, which can be fed
  *     to test when reproducing a problem.
  *     See vm.mlvm.meth.stress.java.sequences.Test for details on MH sequences.
  *

@@ -62,7 +62,7 @@
  *
  * The protocol sends packets to 224.0.23.178:7095 by default.
  *
- * The protocol uses system properties to control it's behaviour:
+ * The protocol uses system properties to control its behaviour:
  * - `com.sun.management.jdp.port` -- override default port
  *
  * - `com.sun.management.jdp.address` -- override default address

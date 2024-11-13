@@ -265,7 +265,7 @@ final class HttpsClient extends HttpClient
                         ret.unlock();
                     }
                 } else {
-                    // We cannot return this connection to the cache as it's
+                    // We cannot return this connection to the cache as its
                     // KeepAliveTimeout will get reset. We simply close the connection.
                     // This should be fine as it is very rare that a connection
                     // to the same host will not use the same proxy.

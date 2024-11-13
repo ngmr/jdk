@@ -257,7 +257,7 @@ class EventDispatchThread extends Thread {
                     Object o = event.getSource();
                     if (o instanceof sun.awt.ModalExclude) {
                         // Exclude this object from modality and
-                        // continue to pump it's events.
+                        // continue to pump its events.
                         return FilterAction.ACCEPT;
                     } else if (o instanceof Component) {
                         Component c = (Component) o;
@@ -268,7 +268,7 @@ class EventDispatchThread extends Thread {
                                 if ((c instanceof Window) &&
                                     (sun.awt.SunToolkit.isModalExcluded((Window)c))) {
                                     // Exclude this window and all its children from
-                                    //  modality and continue to pump it's events.
+                                    //  modality and continue to pump its events.
                                     modalExcluded = true;
                                     break;
                                 }

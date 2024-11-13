@@ -1184,7 +1184,7 @@ public class SwingUtilities implements SwingConstants
         }
 
         // WARNING: DefaultTreeCellEditor uses a shortened version of
-        // this algorithm to position it's Icon. If you change how this
+        // this algorithm to position its Icon. If you change how this
         // is calculated, be sure and update DefaultTreeCellEditor too.
 
         /* labelR is the rectangle that contains iconR and textR.

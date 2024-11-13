@@ -197,7 +197,7 @@ public class HierMemDirCtx implements DirContext {
             bindings.put(name, obj);
         } else {
             throw new SchemaViolationException(
-                "This context only supports binding objects of it's own kind");
+                "This context only supports binding objects of its own kind");
         }
     }
 
@@ -257,7 +257,7 @@ public class HierMemDirCtx implements DirContext {
 
         } else {
             throw new SchemaViolationException(
-                "This context only supports binding objects of it's own kind");
+                "This context only supports binding objects of its own kind");
         }
     }
 

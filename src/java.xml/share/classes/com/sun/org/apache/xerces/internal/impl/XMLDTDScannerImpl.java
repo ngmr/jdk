@@ -732,7 +732,7 @@ implements XMLDTDScanner, XMLComponent, XMLEntityHandler {
         }
         fEntityManager.startEntity(false, fSymbolTable.addSymbol(pName),
         literal);
-        // if we actually got a new entity and it's external
+        // if we actually got a new entity and its external
         // parse text decl if there is any
         if (depth != fPEDepth && fEntityScanner.isExternal()) {
             scanTextDecl();
@@ -1580,7 +1580,7 @@ implements XMLDTDScanner, XMLComponent, XMLEntityHandler {
         // internal entity
         if (systemId == null) {
             scanEntityValue(name, isPEDecl, fLiteral, fLiteral2);
-            // since we need it's value anyway, let's snag it so it doesn't get corrupted
+            // since we need its value anyway, let's snag it so it doesn't get corrupted
             // if a new load takes place before we store the entity values
             fStringBuffer.clear();
             fStringBuffer2.clear();

@@ -1095,7 +1095,7 @@ public class XPathContext extends DTMManager // implements ExpressionContext
     }
 
     /**
-     * Get a variable based on it's qualified name.
+     * Get a variable based on its qualified name.
      * @param qname The qualified name of the variable.
      * @return The evaluated value of the variable.
      * @throws javax.xml.transform.TransformerException

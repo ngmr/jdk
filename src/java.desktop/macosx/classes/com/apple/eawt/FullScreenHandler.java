@@ -59,7 +59,7 @@ final class FullScreenHandler {
         window.getRootPane().putClientProperty(CLIENT_PROPERTY, newHandler);
     }
 
-    // asks the installed FullScreenHandler to remove it's listener (does not uninstall the FullScreenHandler)
+    // asks the installed FullScreenHandler to remove its listener (does not uninstall the FullScreenHandler)
     static void removeFullScreenListenerFrom(final RootPaneContainer window, final FullScreenListener listener) {
         final Object value = window.getRootPane().getClientProperty(CLIENT_PROPERTY);
         if (!(value instanceof FullScreenHandler)) return;
